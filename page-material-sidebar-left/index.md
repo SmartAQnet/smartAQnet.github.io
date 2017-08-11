@@ -1,8 +1,9 @@
 ---
+title: Page
 layout: page-material-sidebar-left
 featimg: 6.jpg
-title: Page
 ---
+
 ## This is a static page with a material sidebar on the right
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit voluptatibus, assumenda perspiciatis vel eos, molestias nisi cum accusantium commodi amet modi repellendus. Nostrum iure fugiat ducimus quae nesciunt distinctio ullam.

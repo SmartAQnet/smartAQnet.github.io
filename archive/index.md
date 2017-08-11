@@ -1,7 +1,8 @@
 ---
-layout: page-material-sidebar-right
 title: Archive
+layout: page-material-sidebar-right
 ---
+
 #### by Month
 {% include monthly_archive.html %}
 

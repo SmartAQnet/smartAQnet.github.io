@@ -1,7 +1,8 @@
 ---
-layout: page-classic-sidebar-right
 title: Typography
+layout: page-classic-sidebar-right
 ---
+
 ###### headings
 
 # Heading 1
