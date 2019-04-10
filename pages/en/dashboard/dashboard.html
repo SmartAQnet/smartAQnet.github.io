@@ -84,7 +84,7 @@ bootstrap: true
             when('/thing/:id', { templateUrl: '{{ "/dashboard/content/views/thing.html" | relative_url }}', controller: "ThingCtrl" }).
             when("/things", { templateUrl: '{{ "/dashboard/content/views/things.html" | relative_url }}', controller: "ThingsCtrl" }).
             when('/locations', { templateUrl: '{{ "/dashboard/content/views/locations.html" | relative_url }}', controller: "LocationsCtrl" }).
-            when('/historicallocations', { templateUrl: '{{ "/dashboard/content/views/historicallocations.html', controller: "HistoricalLocationsCtrl" }).
+            when('/historicallocations', { templateUrl: '{{ "/dashboard/content/views/historicallocations.html" | relative_url }}', controller: "HistoricalLocationsCtrl" }).
             when('/sensors', { templateUrl: '{{ "/dashboard/content/views/sensors.html" | relative_url }}', controller: "SensorsCtrl" }).
             when('/observedproperties', { templateUrl: '{{ "/dashboard/content/views/observedproperties.html" | relative_url }}', controller: "ObservedPropertiesCtrl" }).
             when('/datastream/:id', { templateUrl: '{{ "/dashboard/content/views/datastream.html" | relative_url }}', controller: "DatastreamCtrl" }).
