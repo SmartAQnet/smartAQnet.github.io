@@ -1,0 +1,97 @@
+---
+layout: page
+title: Live Data
+feature-img: "assets/img/pexels/circuit.jpeg"
+tags: [Live, Data]
+bootstrap: true
+---
+
+<link href="/dashboard/content/js/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+<link href="/dashboard/content/js/vendor/openlayers/ol-3.15.1.css" rel="stylesheet">
+<link href="/dashboard/content/css/app.css" rel="stylesheet">
+
+<div class="embedded-dashboard">
+    <div class="nav-md" ng-app="gostApp" ng-controller="MainCtrl">
+        <div class="container body">
+            <div class="main_container">
+              <!-- top navigation -->
+              <ul class="dashboard-menu nav nav-pills nav-fill">
+                <li class="nav-item">
+                    <a class="nav-link" href="#/home"><i class="fa fa-home"></i> Home <span class="fa"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/things"><i class="fa fa-cube"></i> Things <span class="fa"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/sensors"><i class="fa fa-dashboard"></i> Sensors <span class="fa"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#/observedproperties"><i class="fa fa-list"></i> Observed Properties <span class="fa"></span></a>
+                </li>
+              </ul>
+              <script>
+                  $(document).ready(function(){
+                      $('.dashboard-menu li').click(function() {
+                          $(this).siblings('li').children("a").removeClass('active');
+                          $(this).children("a").addClass('active');
+                      });
+                      $('.nav-link[href="'+window.location.hash+'"]').addClass('active');
+                  });
+                </script>
+              <div class="right_col" style="margin-left: 0 !important;" role="main">
+                <div ng-view></div>
+              </div>
+      
+            </div>
+          </div>
+    </div>
+</div>
+
+<script src="/dashboard/content/js/vendor/angular/angular.min.js"></script>
+<script src="/dashboard/content/js/vendor/angular/angular-route.min.js"></script>
+<script src="/dashboard/content/js/vendor/angular/angular-sanitize.min.js"></script>
+<script src="/dashboard/content/js/vendor/jquery/jquery.min.js"></script>
+<script src="/dashboard/content/js/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/dashboard/content/js/vendor/openlayers/ol-3.15.1.js"></script>
+<script src='/dashboard/content/js/vendor/fastclick/fastclick.js'></script>
+<script src='/dashboard/content/js/vendor/moment/moment.min.js'></script>
+<script src='/dashboard/content/js/vendor/moment/moment-interval.js'></script>
+<script src='/dashboard/content/js/vendor/angular-chart/Chart.min.js'></script>
+<script src='/dashboard/content/js/vendor/eclipse/mqttws31.js'></script>
+
+<script src="/dashboard/content/js/app.js"></script>
+<script src="/dashboard/content/js/controllers/home-controller.js"></script>
+<script src="/dashboard/content/js/controllers/datastream-controller.js"></script>
+<script src="/dashboard/content/js/controllers/datastreams-controller.js"></script>
+<script src="/dashboard/content/js/controllers/features-of-interest-controller.js"></script>
+<script src="/dashboard/content/js/controllers/historical-locations-controller.js"></script>
+<script src="/dashboard/content/js/controllers/locations-controller.js"></script>
+<script src="/dashboard/content/js/controllers/main-controller.js"></script>
+<script src="/dashboard/content/js/controllers/observations-controller.js"></script>
+<script src="/dashboard/content/js/controllers/observed-properties-controller.js"></script>
+<script src="/dashboard/content/js/controllers/sensors-controller.js"></script>
+<script src="/dashboard/content/js/controllers/thing-controller.js"></script>
+<script src="/dashboard/content/js/controllers/things-controller.js"></script>
+<script src="/dashboard/content/js/controllers/mqtt-controller.js"></script>
+
+<script src="/dashboard/content/js/gentella.js"></script>
+
+<script>
+    window.stURL = "//smartaqnet.teco.edu";
+    window.gostApp.config(function ($routeProvider) {
+        $routeProvider.
+            when("/home", { templateUrl: "/dashboard/content/views/home.html", controller: "HomeCtrl" }).
+            when('/thing/:id', { templateUrl: '/dashboard/content/views/thing.html', controller: "ThingCtrl" }).
+            when("/things", { templateUrl: "/dashboard/content/views/things.html", controller: "ThingsCtrl" }).
+            when('/locations', { templateUrl: '/dashboard/content/views/locations.html', controller: "LocationsCtrl" }).
+            when('/historicallocations', { templateUrl: '/dashboard/content/views/historicallocations.html', controller: "HistoricalLocationsCtrl" }).
+            when('/sensors', { templateUrl: '/dashboard/content/views/sensors.html', controller: "SensorsCtrl" }).
+            when('/observedproperties', { templateUrl: '/dashboard/content/views/observedproperties.html', controller: "ObservedPropertiesCtrl" }).
+            when('/datastream/:id', { templateUrl: '/dashboard/content/views/datastream.html', controller: "DatastreamCtrl" }).
+            when('/datastreams', { templateUrl: '/dashboard/content/views/datastreams.html', controller: "DatastreamsCtrl" }).
+            when('/observations', { templateUrl: '/dashboard/content/views/observations.html', controller: "ObservationsCtrl" }).
+            when('/featuresofinterest', { templateUrl: '/dashboard/content/views/featuresofinterest.html', controller: "FeaturesOfInterestCtrl" }).
+            when('/mqtt', { templateUrl: '/dashboard/content/views/mqtt.html', controller: "MqttCtrl" }).
+            otherwise({redirectTo: '/home' });;
+    })
+</script>
