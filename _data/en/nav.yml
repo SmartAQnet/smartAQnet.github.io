@@ -1,0 +1,9 @@
+top:
+  - name: Home
+    link: /
+
+  - name: About Us
+    link: /en/about-us
+
+  - name: Live Data
+    link: /en/dashboard

@@ -21,26 +21,16 @@
     
     <!-- Menu -->
     <ul class="hide">
-        <!-- Auto Generation of NORMAL pages in the navbar -->
-        {% assign name_page = "" %}
+        <!-- Auto Generation of pages in _data/[lang]/nav.yml -->
+
+        {% for top_nav_entry in site.data[page.lang].nav.top %}
+          <li class="separator"> | </li>
+          <li>
+              <a class="clear" name="{{ top_nav_entry.name }}" href="{{ site.baseurl | replace: '//', '/' }}{{ top_nav_entry.link }}">{{ top_nav_entry.name }}</a>
+          </li>
+        {% endfor %}
         
-        {% for page in site.pages %}
-        {% if page.title and page.hide != true %}
-        {% if name_page contains page.title %}
-        {% else %}
-        <li class="separator"> | </li>
-        <li>
-            <a class="clear" name="{{ page.title }}" 
-               href="{{ page.url | relative_url }}">
-                {{ page.title }}
-            </a>
-        </li>
-        {% endif %}
-        {% assign name_page = page.title | append: name_page %}
-        {% endif %}
-        {% endfor %} 
-        
-        <!-- Auto Generation of SPECIAL pages in the navbar -->
+        <!-- Auto Generation of pages in _data/[lang]/nav.yml -->
         {% for item in site.theme_settings.special_page %}
           {% if item[1].enabled %}
             <li class="separator"> | </li>
