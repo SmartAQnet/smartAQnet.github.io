@@ -6,6 +6,10 @@ description: "A website with blog posts and pages" # used by search engines
 
 defaults:
   - scope:
+      path: ''
+    values:
+      lang: 'en'
+  - scope:
       path: '_posts/en'
     values:
       lang: 'en'
