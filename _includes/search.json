@@ -1,0 +1,27 @@
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
+      "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
+      "url"      : "{{ post.url | relative_url }}",
+      "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
+      "excerpt"  : {{ post.content | truncate: '250' | jsonify }},
+      "content"  : {{ post.content | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  {% assign indexed_pages = site.pages | where:"indexed","true" | where:"lang",page.lang %}
+  {% for page in indexed_pages %}
+    {
+      {% if page.title != nil %}
+        "title"    : "{{ page.title | escape }}",
+        "category" : "{{ page.category }}",
+        "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
+        "url"      : "{{ page.url | relative_url }}",
+        "date"     : " ",
+        "excerpt"  : {{ page.content | truncate: '250' | jsonify }},
+        "content"  : {{ page.content | truncate: '250' | jsonify }}
+      {% endif %}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

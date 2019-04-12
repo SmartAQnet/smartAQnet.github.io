@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Über Uns
+indexed: true
 ---
 
 Im Folgenden stellen sich die Projektpartner des Verbundprojektes "smartAQnet - Smart Air Quality Network - Analyse und Bewertung neuer Luftgüte-Messmethoden und Wissenschaftskommunikation an Öffentlichkeit und spezielle Stakeholder" vor (in alphabetischer Reihenfolge).

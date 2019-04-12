@@ -1,9 +1,19 @@
 top:
-  - name: Home
-    link: /de
+  pages:
+    - name: Home
+      link: /de
 
-  - name: Über Uns
-    link: /de/about-us
+    - name: Über Uns
+      link: /de/about-us
 
-  - name: Live Daten
-    link: /en/dashboard
+    - name: Live Daten
+      link: /en/dashboard
+
+  special_page:
+    - name: Suche
+      icon: "search"
+      link: /de/search
+
+    - name: Tags
+      icon: "tags"
+      link: /de/tags

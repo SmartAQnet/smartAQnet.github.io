@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Us
+indexed: true
 ---
 
 The project partners participating in "_**smartAQnet** - Smart Air Quality Network - Analysis and Assessment of New Air Quality Measurement Methods and Science Communication to the Public and Special Stakeholders_" present themselves in the following paragraphs (in alphabetical order).
