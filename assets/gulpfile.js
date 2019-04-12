@@ -40,13 +40,13 @@ gulp.task('css', function minicss() {
         .pipe(gulp.dest('css/vendor/'));
 })
 
-gulp.task("isolate-bootstrap-css", gulp.series('css', function isolating() {
+gulp.task("isolate-bootstrap-css", gulp.series(function isolating() {
     return gulp.src('css/bootstrap-iso.less')
         .pipe(less())
         .pipe(replace('.bootstrap-iso html', ''))
         .pipe(replace('.bootstrap-iso body', ''))
         .pipe(gulp.dest('css/vendor/'));
-}));
+}, "css"));
 
 gulp.task("serve", function serving(done) {
     console.log('... not working at the moment try \ncd .. && bundle exec jekyll serve --watch\n',
