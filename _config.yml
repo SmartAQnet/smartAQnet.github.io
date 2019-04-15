@@ -34,7 +34,7 @@ defaults:
 theme_settings:
   # Meta
   title: SmartAQnet # blog's title
-  avatar: "assets/img/logos/logo SAQN.png"
+  avatar: "assets/img/logos/SmartAQnet_logo.png"
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 

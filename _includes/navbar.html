@@ -1,39 +1,62 @@
-<header class="site-header">
-    
-    <!-- Logo and title -->
-	<div class="branding">
-		<a href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
-			<img alt="logo img" class="avatar" src="{{ site.theme_settings.avatar | relative_url }}" alt=""/>
-		</a>
-	</div>
-    
-    <!-- Toggle menu -->
-    <nav class="clear">
-    <a name="pull" id="pull" class="toggle" href="#">
-    <i class="fa fa-bars fa-lg"></i>
-    </a>
-    
-    <!-- Menu -->
-    <ul class="hide">
-        <!-- Auto Generation of pages in _data/[lang]/nav.yml -->
+<header class="site-header bootstrap-iso">
 
-        {% for top_nav_entry in site.data[page.lang].nav.top.pages %}
+    <!-- Logo and title -->
+    <!--<div class="branding">
+      <a href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
+        <img alt="logo img" class="avatar" src="{{ site.theme_settings.avatar | relative_url }}" alt=""/>
+      </a>
+    </div>-->
+
+    <!-- Toggle menu -->
+    <!--{% for top_nav_entry in site.data[page.lang].nav.top.pages %}
           <li class="separator"> | </li>
           <li>
               <a class="clear" name="{{ top_nav_entry.name }}" href="{{ site.baseurl | replace: '//', '/' }}{{ top_nav_entry.link }}">{{ top_nav_entry.name }}</a>
           </li>
-        {% endfor %}
-        
-        <!-- Auto Generation of pages in _data/[lang]/nav.yml -->
-        {% for item in site.data[page.lang].nav.top.special_page %}
+        {% endfor %}-->
+
+    <!--{% for item in site.data[page.lang].nav.top.special_page %}
             <li class="separator"> | </li>
             <li>
               <a class="clear" href="{{ item.link | relative_url }}" name="{{ item.name }}">
                 <i class="fa fa-{{ item.icon }}" aria-hidden="true"></i>
               </a>
             </li>
-        {% endfor %}
-    </ul>
-        
-	</nav>
+        {% endfor %}-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- SmartAQnet logo -->
+        <a class="navbar-brand" href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
+            <img src="{{ site.theme_settings.avatar | relative_url }}" width="300" alt="logo img">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                {% for top_nav_entry in site.data[page.lang].nav.top.pages %}
+                    <li>
+                        <a class="nav-link" href="{{ site.baseurl | replace: '//', '/' }}{{ top_nav_entry.link }}">{{ top_nav_entry.name }}</a>
+                    </li>
+                {% endfor %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </header>

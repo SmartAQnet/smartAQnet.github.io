@@ -1,6 +1,5 @@
 .site-header {
     //padding-bottom: 1%;
-    padding: 2% 2% 1% 2%;
     background: $brand-color;
     display: inline-block;
     float: left;
@@ -17,17 +16,6 @@
 
     a {
         color: $header-link-color;
-    }
-
-    .avatar {
-        height: 4em;
-        width: auto;
-        float: left;
-        margin-top: -13px;
-        border-radius: 0.2em;
-        margin-right: 0.5em;
-        padding: 10px 10px;
-
     }
 
     .site-title {
@@ -97,9 +85,6 @@
 
 @media screen and (max-width: $break) {
     .site-header {
-        img.avatar {
-            margin-top: -7px
-        }
         .site-title {
             margin-top: 7px;
         }
