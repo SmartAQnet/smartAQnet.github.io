@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     window.addEventListener('scroll', function () {
         var x = window.pageYOffset || document.body.scrollTop;
         var main = document.getElementById("main");
+        if(!main) return;
         var mainStyle = main.style;
         
         mainStyle.backgroundPosition = '100% ' + parseInt(-x/3) + 'px' + ', 0%, center top';
