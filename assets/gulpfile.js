@@ -10,6 +10,13 @@ const shell = require('gulp-shell');
 const less = require('gulp-less');
 const cssmin = require('gulp-cssmin')
 const replace = require('gulp-replace');
+var sass = require('gulp-sass');
+var autoprefixer = require('gulp-autoprefixer');
+
+var sassOptions = {
+    errLogToConsole: true,
+    outputStyle: 'expanded'
+};
 
 gulp.task('js', function minijs() {
     return gulp.src(['js/partials/**.js'])
@@ -19,6 +26,14 @@ gulp.task('js', function minijs() {
             console.log(err.toString());
         })
         .pipe(gulp.dest("js/"))
+});
+
+gulp.task('css', function sassminicss() {
+    return gulp.src(['css/bootstrap-iso.scss'])
+        .pipe(sass(sassOptions).on('error', sass.logError))
+        .pipe(autoprefixer())
+        .pipe(cssmin())
+        .pipe(gulp.dest("css/vendor/"))
 });
 
 gulp.task("img", function imging() {
@@ -39,4 +54,4 @@ gulp.task("serve", function serving(done) {
     done();
 });
 
-gulp.task("default", gulp.series(gulp.parallel('js', 'img')));
+gulp.task("default", gulp.series(gulp.parallel('js', 'css', 'img')));
