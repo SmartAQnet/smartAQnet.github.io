@@ -4,7 +4,21 @@ top:
       link: /
 
     - name: About Us
-      link: /en/about-us
+      entries:
+        - name: About Us
+          link: /en/about-us
+
+        - name: "Funding Institutions and <br> Legal Disclosures"
+          link: /en/funding-institution-and-legal-disclosures
+
+        - name: "Work Packages"
+          link: /en/work-packages
+
+        - name: Background
+          link: /en/background
+
+    - name: Publications
+      link: /en/publications
 
     - name: Live Data
       link: /en/dashboard

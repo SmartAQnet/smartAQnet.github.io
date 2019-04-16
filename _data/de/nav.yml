@@ -1,10 +1,24 @@
 top:
   pages:
-    - name: Home
+    - name: Startseite
       link: /de
 
-    - name: Über Uns
-      link: /de/about-us
+    - name: Über uns
+      entries:
+        - name: Über Uns
+          link: /de/about-us
+
+        - name: "Fördergeldgeber <br> und Impressum"
+          link: /de/funding-institution-and-legal-disclosures
+
+        - name: Arbeitspakete
+          link: /de/work-packages
+
+        - name: Hintergrund
+          link: /de/background
+
+    - name: Publikationen
+      link: /de/publications
 
     - name: Live Daten
       link: /en/dashboard
