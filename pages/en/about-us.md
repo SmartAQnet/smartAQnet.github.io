@@ -44,8 +44,18 @@ The research activities at the **Department of Physical Geography and Quantitati
 
 <br><br>
 
-[![Forschungsgruppe TECO logo](/assets/img/logos/teco bearb_final.jpg)](https://pcs.tm.kit.edu/149.php)
-The Chair of **Pervasive Computing Systems** and the research group **TECO** (short: KIT-TECO) of the **Karlsruhe Institute of Technology** (KIT) have a long tradition in research in the areas of pervasive and ubiquitous computing, with a focus on wireless communication, embedded systems, Data analytics and human-computer interaction (HCI). Research includes mobile participatory aerosol measurements in Citizen Science and distributed measurement scenarios, as well as low-power wireless communication and portable sensor platforms that communicate with smartphones. The impact of non-experts and their integration into the measurement chain is being explored as an important aspect of environmental measurements, as is the distributed calibration of cost-effective sensors and the protection of privacy in such systems. More see  [http://www.teco.edu/](http://www.teco.edu/).
+[![Forschungsgruppe TECO logo](/assets/img/logos/teco bearb_final.jpg)](https://pcs.tm.kit.edu/149.php) The Chair of **Pervasive
+Computing Systems** and the research group **TECO** (short: KIT-TECO) of the
+**Karlsruhe Institute of Technology** (KIT) have a long tradition in research in
+the areas of pervasive and ubiquitous computing, with a focus on wireless
+communication, embedded systems, Data analytics and human-computer interaction
+(HCI). Research includes mobile participatory aerosol measurements in Citizen
+Science and distributed measurement scenarios, as well as low-power wireless
+communication and portable sensor platforms that communicate with smartphones.
+The impact of non-experts and their integration into the measurement chain is
+being explored as an important aspect of environmental measurements, as is the
+distributed calibration of cost-effective sensors and the protection of privacy
+in such systems. More see  [http://www.teco.edu/](http://www.teco.edu/).
 
 <style>
 .post-content img{
