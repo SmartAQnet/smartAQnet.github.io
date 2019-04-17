@@ -1,5 +1,6 @@
 <div class="posts">
-    {% for post in site.posts %}
+    {% assign posts_lang = site.posts | where:"lang", page.lang %}
+    {% for post in posts_lang %}
     <div class="post-teaser">
         {% if post.thumbnail %}
         <div class="post-img">
