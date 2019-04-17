@@ -1,17 +1,33 @@
+{% assign posts_lang = site.posts | where:"lang", page.lang %}
+{% for post in posts_lang %}
+    {% if post.url == page.url %}
+        {% assign post_index0 = forloop.index0 %}
+        {% assign post_index1 = forloop.index %}
+    {% endif %}
+{% endfor %}
+{% for post in posts_lang %}
+    {% if post_index0 == forloop.index %}
+        {% assign next_post = post %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+        {% assign prev_post = post %}
+    {% endif %}
+{% endfor %}
+
 <div id="post-nav">
-  {% if page.previous.url %}
+  {% if prev_post.url %}
   <div id="previous-post" class="post-nav-post">
       <p>{{ site.theme_settings.str_previous_post }}</p>
-      <a alt="{{ page.previous.title }}" href="{{ page.previous.url | relative_url }}">
-        {{ page.previous.title }}
+      <a alt="{{ prev_post.title }}" href="{{ prev_post.url | relative_url }}">
+        {{ prev_post.title }}
       </a>
   </div>
   {% endif %}
-  {% if page.next.url %}
+  {% if next_post.url %}
   <div id="next-post" class="post-nav-post">
       <p>{{ site.theme_settings.str_next_post }}</p>
-      <a alt="{{ page.next.title }}" href="{{ page.next.url | relative_url }}">
-        {{ page.next.title }}
+      <a alt="{{ next_post.title }}" href="{{ next_post.url | relative_url }}">
+        {{ next_post.title }}
       </a>
   </div>
   {% endif %}
