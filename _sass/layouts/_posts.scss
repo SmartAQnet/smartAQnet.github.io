@@ -57,10 +57,17 @@ header {
     header {
         color: $feature-image-text-color;
         margin-bottom: 0;
-        padding: $padding-large/2.5 $padding-large;
+        //padding: $padding-large/2.5 $padding-large;
+        height: 350px;
         .meta {
             color: rgba($feature-image-text-color, .7);
         }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
     }
     .post-content {
         @extend %padding-regular;
@@ -75,20 +82,23 @@ header {
 // Responsive scrolling
 .feature-image header {
     @media screen and (max-width: $break) {
-        padding: $padding-small $padding-small;
+        //padding: $padding-small $padding-small;
+        height: 300px;
     }
     
     /* --- Responsive --- */
     @media screen and (min-width: $break) {
-        background-size: 120% auto;
+        //background-size: 120% auto;
+
     } 
     
     @media screen and (max-width: $break) {
-        background-size: 200% auto;
+        //background-size: 200% auto;
     } 
     
     @media screen and (max-width: $sm-break) {
-        background-size: 400% auto;
+        //background-size: 400% auto;
+        height: 200px;
     }
 }
 
