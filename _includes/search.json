@@ -1,5 +1,8 @@
+{% assign indexed_pages = site.pages | where:"indexed","true" | where:"lang",page.lang %}
+{% assign post_in_lang = site.posts | where:"lang",page.lang %}
+{% assign indexed_pages_size = indexed_pages | size %}
 [
-  {% for post in site.posts %}
+  {% for post in post_in_lang %}
     {
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
@@ -8,9 +11,9 @@
       "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
       "excerpt"  : {{ post.content | truncate: '250' | jsonify }},
       "content"  : {{ post.content | jsonify }}
-    } {% unless forloop.last %},{% endunless %}
+    } {% unless forloop.last and indexed_pages_size == 0 %},{% endunless %}
   {% endfor %}
-  {% assign indexed_pages = site.pages | where:"indexed","true" | where:"lang",page.lang %}
+  
   {% for page in indexed_pages %}
     {
       {% if page.title != nil %}
