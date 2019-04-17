@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Arbeitspakete
+indexed: true
 ---
 
 Projektziel und Arbeitspakete

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Background
+indexed: true
 ---
 
 ### Smart Air Quality Network

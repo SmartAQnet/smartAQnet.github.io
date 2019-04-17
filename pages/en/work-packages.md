@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Work Packages
+indexed: true
 ---
 
 Project goals, work packages and duration

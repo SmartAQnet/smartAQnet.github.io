@@ -2,6 +2,7 @@
 layout: page
 title: Funding Institutions and Legal Disclosures
 bootstrap: true
+indexed: true
 ---
 
 ### Funding Institutions

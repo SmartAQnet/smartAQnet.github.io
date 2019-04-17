@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Fördergeldgeber und Impressum
+indexed: true
 ---
 
 ### Fördergeldgeber

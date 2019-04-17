@@ -2,6 +2,7 @@
 layout: page
 title: Publikationen
 bootstrap: true
+indexed: true
 ---
 
 ## Newsletter

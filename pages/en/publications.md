@@ -2,6 +2,7 @@
 layout: page
 title: Results and Publications
 bootstrap: true
+indexed: true
 ---
 
 ## Newsletter
