@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Background
+feature-img: "/assets/img/project-images/IMG_20171017_131438.jpg"
+background-position-y: "34%"
 indexed: true
 ---
 

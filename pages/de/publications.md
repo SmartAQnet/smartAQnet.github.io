@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Publikationen
+feature-img: "assets/img/stock/magazines-364514_1920.jpg"
 bootstrap: true
 indexed: true
 ---

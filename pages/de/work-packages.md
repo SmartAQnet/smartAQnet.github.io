@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Arbeitspakete
+feature-img: "/assets/img/project-images/20171012_172134.jpg"
+background-position-y: "10%"
 indexed: true
 ---
 

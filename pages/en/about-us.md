@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About Us
+feature-img: "assets/img/project-images/Kickoff 20170726_featured_img.jpg"
+center-feature-img: true
 indexed: true
 ---
 
