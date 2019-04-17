@@ -1,31 +1,7 @@
 <header class="site-header bootstrap-iso">
-
-    <!-- Logo and title -->
-    <!--<div class="branding">
-      <a href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
-        <img alt="logo img" class="avatar" src="{{ site.theme_settings.avatar | relative_url }}" alt=""/>
-      </a>
-    </div>-->
-
-    <!-- Toggle menu -->
-    <!--{% for top_nav_entry in site.data[page.lang].nav.top.pages %}
-          <li class="separator"> | </li>
-          <li>
-              <a class="clear" name="{{ top_nav_entry.name }}" href="{{ site.baseurl | replace: '//', '/' }}{{ top_nav_entry.link }}">{{ top_nav_entry.name }}</a>
-          </li>
-        {% endfor %}-->
-
-    <!--{% for item in site.data[page.lang].nav.top.special_page %}
-            <li class="separator"> | </li>
-            <li>
-              <a class="clear" href="{{ item.link | relative_url }}" name="{{ item.name }}">
-                <i class="fa fa-{{ item.icon }}" aria-hidden="true"></i>
-              </a>
-            </li>
-        {% endfor %}-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- SmartAQnet logo -->
-        <a class="navbar-brand" href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
+        <a class="navbar-brand" style="max-width: 75%;" href="{{ '/' | append: page.lang | replace: 'en', '' | relative_url }}">
             <img src="{{ site.theme_settings.avatar | relative_url }}" width="300" alt="logo img">
         </a>
 
@@ -59,6 +35,24 @@
                     {% endif %}
                 {% endfor %}
             </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-language fa-lg mr-2"></i>
+                        <span class="d-none d-xl-inline">Language:</span> {{page.lang}}
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#" data-language-code="en" onclick="setUserLanguage('en')">English</a>
+                        <a class="dropdown-item" href="#" data-language-code="de" onclick="setUserLanguage('de')">Deutsch</a>
+                    </div>
+                </div>
+                {% for item in site.data[page.lang].nav.top.special_page %}
+                    <a role="button" class="btn btn-primary" href="{{ item.link | relative_url }}" name="{{ item.name }}">
+                        <i class="fas fa-{{item.icon}} fa-lg mr-2"></i>
+                        <span class="d-none d-xl-inline">{{ item.name }}</span>
+                    </a>
+                {% endfor %}
+            </form>
         </div>
     </nav>
 </header>

@@ -27,7 +27,3 @@ top:
     - name: Suche
       icon: "search"
       link: /de/search
-
-    - name: Tags
-      icon: "tags"
-      link: /de/tags
