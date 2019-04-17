@@ -1,8 +1,8 @@
 # SITE CONFIGURATION
-baseurl: /smartaqnet-proposal
-url: "https://limond.github.io"
-title: Type on Strap # site's title
-description: "A website with blog posts and pages" # used by search engines
+baseurl: 
+url: "https://smartaqnet.github.io"
+title: SmartAQnet # site's title
+description: "Entwicklung und Bewertung eines engmaschigen Netzwerks von lokalen Feinstaubdaten, welche von der Öffentlichkeit eingespeist und genutzt werden können." # used by search engines
 
 defaults:
   - scope:
