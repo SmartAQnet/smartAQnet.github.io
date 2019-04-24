@@ -143,7 +143,7 @@ https://www.geo.uni-augsburg.de/lehrstuhl\_professur/phygeo/.
 
 <br><br>
 
-[![Forschungsgruppe TECO logo](/assets/img/logos/tecobearb_final.jpg)](https://pcs.tm.kit.edu/149.php) Der **Lehrstuhl für Pervasive
+[![Forschungsgruppe TECO logo](/assets/img/logos/teco bearb_final.jpg)](https://pcs.tm.kit.edu/149.php) Der **Lehrstuhl für Pervasive
 Computing Systems** am **Institut für Telematik** und die **Forschungsgruppe
 TECO** (kurz: KIT-TECO) des **Karlsruher Instituts für Technologie** (KIT) haben
 eine lange Tradition in der Forschung in den Bereichen Pervasive und Ubiquitous
