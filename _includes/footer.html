@@ -1,13 +1,22 @@
-{% if site.theme_settings.footer_text %}
-<footer class="site-footer">
-    <p class="text">{{ site.theme_settings.footer_text }}</p>
-            <div class="footer-icons">
-                <ul>
-                <!-- Social icons from Font Awesome, if enabled -->
-                {% include icons.html %}
-                </ul>
+<footer class="site-footer bootstrap-iso">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-5" id="funding-logos-col">
+                <p>{{ site.data[page.lang].footer.funding.name }}</p>
+                <div id="funding-logos">
+                    {% for funding_entry in site.data[page.lang].footer.funding.entries %}
+                        <a href="{{ funding_entry.link }}" target="_blank"><img src="{{ funding_entry.image }}" alt="{{ funding_entry.name }} logo"></a>
+                    {% endfor %}
+                </div>
             </div>
+            <div class="col-xl-7" id="partner-logos-col">
+                <p>{{ site.data[page.lang].footer.partners.name }}</p>
+                <div id="partner-logos">
+                    {% for partners_entry in site.data[page.lang].footer.partners.entries %}
+                        <a href="{{ partners_entry.link }}" target="_blank"><img src="{{ partners_entry.image }}" alt="{{ partners_entry.name }} logo"></a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
-{% endif %}
-
-

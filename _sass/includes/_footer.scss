@@ -1,19 +1,35 @@
 .site-footer {
-    @extend %padding-regular;
-    display: inline-block;
-    text-align: center;
+    @extend %padding-small;
+    display: block;
     width: 100%;
     color: lighten($text-color, 24%);
     font-size: 0.9em;
-
-    .footer-icons {
-        ul {
-            list-style: none;
-            li {
-                display: inline;
-            }
-            a:hover {
-                color: darken($link-color, 15%);
+    text-align: left;
+    .row{
+        width: 100%;
+    }
+    .container{
+        max-width: 100% !important;
+        font-size: .875rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        img{
+            width: auto;
+            height: 50px;
+            margin-left: 40px;
+            margin-top: 20px;
+            padding: 0;
+        }
+        #funding-logos img{
+            height: 70px;
+        }
+        #funding-logos, #partner-logos{
+            margin-left: -40px;
+            margin-top: -20px;
+        }
+        @media (max-width: 1199.99px){
+            #partner-logos-col{
+                margin-top: 30px;
             }
         }
     }
