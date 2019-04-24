@@ -4,11 +4,12 @@
 [
   {% for post in post_in_lang %}
     {
+      {% capture date %}{% include date.html %}{% endcapture %}
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
       "url"      : "{{ post.url | relative_url }}",
-      "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
+      "date"     : "{{ date | strip }}",
       "excerpt"  : {{ post.content | markdownify | strip_html | truncate: '250' | jsonify }},
       "content"  : {{ post.content | markdownify | strip_html| jsonify }}
     } {% unless forloop.last and indexed_pages_size == 0 %},{% endunless %}
@@ -17,11 +18,12 @@
   {% for page in indexed_pages %}
     {
       {% if page.title != nil %}
+        {% capture date %}{% include date.html %}{% endcapture %}
         "title"    : "{{ page.title | escape }}",
         "category" : "{{ page.category }}",
         "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
         "url"      : "{{ page.url | relative_url }}",
-        "date"     : " ",
+        "date"     : "{{ date | strip }}",
         "excerpt"  : {{ page.content | markdownify | strip_html | truncate: '250' | jsonify }},
         "content"  : {{ page.content | markdownify | strip_html | jsonify }}
       {% endif %}
