@@ -8,7 +8,7 @@ subtitle: Entwicklung und Bewertung eines engmaschigen Netzwerks von lokalen Fei
 Das Projekt Smart Air Quality Network strebt die Entwicklung eines intelligenten, reproduzierbaren Messnetzwerkes
 in der Modellregion Augsburg an, das alle derzeit verfügbaren Aerosol- (und
 zukünftig auch Gas-)messdaten sowie auch Daten der Meteorologie mittels
-bestehender Technologien erfasst werden. 
+bestehender Technologien erfasst. 
 
 Dazu werden neue preiswerte Messtechnologien entwickelt, zum Einsatz und in
 Konsistenz mit vorhandenen Messdaten gebracht werden, um auch "lokal" möglichst
