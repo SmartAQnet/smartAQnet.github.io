@@ -5,7 +5,7 @@ title: Projekt Smart Air Quality Network
 subtitle: Entwicklung und Bewertung eines engmaschigen Netzwerks von lokalen Feinstaubdaten, welche von der Öffentlichkeit eingespeist und genutzt werden können.
 ---
 
-Wir streben die Entwicklung eines intelligenten, reproduzierbaren Messnetzwerkes
+Das Projekt Smart Air Quality Network strebt die Entwicklung eines intelligenten, reproduzierbaren Messnetzwerkes
 in der Modellregion Augsburg an, das alle derzeit verfügbaren Aerosol- (und
 zukünftig auch Gas-)messdaten sowie auch Daten der Meteorologie mittels
 bestehender Technologien erfasst werden. 
