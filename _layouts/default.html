@@ -1,7 +1,14 @@
+
+{% if layout.bootstrap_whole_page %}
+  {% assign bootstrap_whole_page_class = "bootstrap-iso" %}
+{% elsif page.bootstrap_whole_page %}
+  {% assign bootstrap_whole_page_class = "bootstrap-iso" %}
+{% endif %}
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}">
   {% include head.html %}
-  <body>
+  <body class="{{bootstrap_whole_page_class | default: ""}}">
     {% include navbar.html %}
     <div class="content">
       {{ content }}

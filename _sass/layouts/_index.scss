@@ -40,6 +40,10 @@
     }
 }
 
+#main{
+    position: relative;
+}
+
 #main #feature-img {
     background-position: 100% 0, 0 center, center top;
     background-size: cover;

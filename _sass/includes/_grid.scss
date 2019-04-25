@@ -21,6 +21,13 @@
     width: 32.6%;
 }
 
+@media (max-width: 768px){
+    .grid-sizer, .grid-item {
+        /* state column width */
+        width: 49.2%;
+    }
+}
+
 .grid-item {
     float: left;
     border-radius: 5px;
@@ -39,10 +46,6 @@
 .gutter-sizer {
 
     width: 1%;
-}
-
-.grid-item:first-of-type {
-    margin: 0;
 }
 
 .grid-item {

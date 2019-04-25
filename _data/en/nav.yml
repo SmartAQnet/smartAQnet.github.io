@@ -18,7 +18,12 @@ top:
           link: /en/background
 
     - name: Publications
-      link: /en/publications
+      entries:
+        - name: Publications
+          link: /en/publications
+
+        - name: Photo Gallery
+          link: /en/gallery
 
     - name: Live Data
       link: /en/dashboard

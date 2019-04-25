@@ -21,7 +21,7 @@ var sassOptions = {
 gulp.task('js', function minijs() {
     return gulp.src(['js/partials/**.js'])
         .pipe(concat('main.min.js'))
-        .pipe(uglify())
+        //.pipe(uglify())
         .on('error', (err) => {
             console.log(err.toString());
         })
