@@ -4,7 +4,7 @@ permalink: /
 title: Smart Air Quality Network
 subtitle: The development of a close-meshed network of local fine-dust data, which can be fed and used well by general public.
 alternatives:
-    de: /de/
+    de: /de
     en: /
 ---
 **BACKGROUND / ADRESSED PROBLEM**: Traditionally, the contamination of the air

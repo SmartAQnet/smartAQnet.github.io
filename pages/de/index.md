@@ -1,10 +1,10 @@
 ---
 layout: home
-permalink: /de/
+permalink: /de
 title: Projekt Smart Air Quality Network
 subtitle: Entwicklung und Bewertung eines engmaschigen Netzwerks von lokalen Feinstaubdaten, welche von der Öffentlichkeit eingespeist und genutzt werden können.
 alternatives:
-    de: /de/
+    de: /de
     en: /
 ---
 
