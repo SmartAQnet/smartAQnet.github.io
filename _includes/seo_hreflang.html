@@ -1,0 +1,17 @@
+{% if page.alternatives %}
+    {% for other_lang in page.alternatives %}
+            <link rel="alternate" hreflang="{{ other_lang[0] }}" href="{{ other_lang[1] }}" />
+    {% endfor %}
+{% else %}
+    {% assign collection_canonical = site.pages %}
+    {% assign path_size = page.url | size | minus: 3 %}
+    {% assign lang_agnostic_path = page.url | slice: 3, path_size %}
+    {% for other_lang in site.data.languages %}
+        {% assign lang_specific_path = "/" | append: other_lang | append: lang_agnostic_path %}
+        {% assign  alternative_version = site.documents | where:"url",lang_specific_path %}
+        {% assign  alternative_version_pages = site.pages | where:"url",lang_specific_path %}
+        {% if alternative_version.size != 0 or alternative_version_pages.size != 0 %}
+            <link rel="alternate" hreflang="{{ other_lang }}" href="{{ lang_specific_path }}" />
+        {% endif %}
+    {% endfor %}
+{% endif %}

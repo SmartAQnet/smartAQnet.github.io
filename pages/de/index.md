@@ -3,6 +3,9 @@ layout: home
 permalink: /de
 title: Projekt Smart Air Quality Network
 subtitle: Entwicklung und Bewertung eines engmaschigen Netzwerks von lokalen Feinstaubdaten, welche von der Öffentlichkeit eingespeist und genutzt werden können.
+alternatives:
+    de: /de/
+    en: /
 ---
 
 Das Projekt Smart Air Quality Network strebt die Entwicklung eines intelligenten, reproduzierbaren Messnetzwerkes

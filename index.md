@@ -3,8 +3,10 @@ layout: home
 permalink: /
 title: Smart Air Quality Network
 subtitle: The development of a close-meshed network of local fine-dust data, which can be fed and used well by general public.
+alternatives:
+    de: /de/
+    en: /
 ---
-
 **BACKGROUND / ADRESSED PROBLEM**: Traditionally, the contamination of the air
 is detected by means of relatively few measuring stations by suitability-tested
 stationary measuring technology. Thus, according to the EU Directive, only a few
