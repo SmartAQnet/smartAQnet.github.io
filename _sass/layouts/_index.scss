@@ -135,17 +135,5 @@
 
 // Pagination
 .pagination {
-    padding: $padding-small $padding-large 0 $padding-large;
-    text-align: center;
-    @media (max-width: 600px) {
-        padding: $padding-small;
-    }
-
-    .button {
-        margin: 0 1.5em;
-        i {
-            vertical-align: middle;
-        }
-    }
-
+    padding: $padding-small 0 $padding-small 0;
 }

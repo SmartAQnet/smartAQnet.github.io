@@ -1,27 +1,93 @@
 <div class="posts">
     {% assign posts_lang = site.posts | where:"lang", page.lang %}
+    {% assign post_page = 1 %}
+    <div class="post-page" id="post-page-{{post_page}}">
     {% for post in posts_lang %}
-    <div class="post-teaser">
-        {% if post.thumbnail %}
-        <div class="post-img">
-            <img alt="{{ post.title }}" src="{{ post.thumbnail | relative_url }}">
+      {% include post-teaser.html %}
+      {% assign elementInPage = forloop.index | modulo: site.items_per_page %}
+      {% if elementInPage == 0 or forloop.index == forloop.length %}
         </div>
-        {% endif %}
-        <span>
-          <header>
-            <h1>
-              <a alt="{{ post.title }}" class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title }}
-              </a>
-            </h1>
-            <p class="meta">
-              {% include date.html %}
-            </p>
-          </header>
-          <div class="excerpt">
-              {{ post.excerpt | strip_html | escape }}
-          </div>
-      </span>
-    </div>
+      {% endif %}
+      {% if elementInPage == 0 and forloop.index != forloop.length %}
+        {% assign post_page = post_page | plus: 1 %}
+        <div class="post-page" id="post-page-{{post_page}}">
+      {% endif %}
     {% endfor %}
+    <div class="post-page" id="post-page-special-first">
+        {% for post in posts_lang limit: site.items_per_page %}
+          {% include post-teaser.html %}
+        {% endfor %}
+    </div>
 </div>
+
+<nav aria-label="Post teaser pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item page-item-prev">
+      <a class="page-link" href="#post-page-1" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+        <span class="sr-only">Previous</span>
+      </a>
+    </li>
+    {% for i in (1..post_page) %}
+      <li class="page-item d-none d-sm-block" data-page="{{i}}" onclick="makePageActive('{{i}}')"><a class="page-link" href="#post-page-{{i}}">{{i}}</a></li>
+    {% endfor %}
+    <li class="page-item page-item-next">
+      <a class="page-link" href="#post-page-{{post_page}}" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">Next</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<script>
+  (function(){
+
+    window.makePageActive = function (page){
+      $(".page-item").removeClass("active");
+      $(".page-item[data-page='"+(page)+"']").addClass("active");
+    }
+
+    var pageInHash = window.location.hash && window.location.hash.split("-").reverse()[0];
+    var page = parseInt(pageInHash) || 1;
+    $(".page-item[data='"+(page)+"']").addClass("active");
+    window.makePageActive(page);
+
+    $(".page-item-prev").click(function(event){
+      event.preventDefault();
+      var pageInHash = window.location.hash && window.location.hash.split("-").reverse()[0];
+      var page = parseInt(pageInHash) || 1;
+      if(page && page - 1){
+        window.location.hash = '#post-page-' + (page - 1);
+        $(".page-item").removeClass("active");
+        $(".page-item[data='"+(page-1)+"']").addClass("active");
+        window.makePageActive(page-1);
+      }
+    });
+
+    $(".page-item-next").click(function(event){
+      event.preventDefault();
+      var pageInHash = window.location.hash && window.location.hash.split("-").reverse()[0];
+      var page = parseInt(pageInHash) || 1;
+      if(page && page + 1 <= parseInt("{{post_page}}")){
+        window.location.hash = '#post-page-' + (page + 1);
+        window.makePageActive(page+1);
+      }
+    });
+  })();
+</script>
+
+<style>
+.post-page{
+  display: none;
+}
+#post-page-special-first{
+  display: block;
+}
+.post-page:target{
+  display: block;
+}
+.post-page:target ~ .post-page{
+  display: none !important;
+}
+</style>

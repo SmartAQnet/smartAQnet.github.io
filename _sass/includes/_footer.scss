@@ -1,5 +1,6 @@
 .site-footer {
     @extend %padding-small;
+    border-top: 1px solid $border-color;
     display: block;
     width: 100%;
     color: lighten($text-color, 24%);
