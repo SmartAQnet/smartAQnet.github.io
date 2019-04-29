@@ -25,6 +25,9 @@ top:
         - name: Photo Gallery
           link: /en/gallery
 
+        - name: International Workshop 2018
+          link: /en/int-workshop-2018
+
     - name: Live Data
       link: /en/dashboard
 
