@@ -163,6 +163,10 @@ siehe [http://www.teco.edu/research/smartaqnet/](http://www.teco.edu/research/s
     max-width: 300px;
     float: left;
     margin: 20px;
+    margin-top: 0;
     padding: 0;
+}
+br{
+    clear: both;
 }
 </style>

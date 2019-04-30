@@ -107,6 +107,10 @@ validity of the other parts remain uninfluenced by this fact.
     max-width: 300px;
     float: left;
     margin: 20px;
+    margin-top: 0;
     padding: 0;
+}
+br{
+    clear: both;
 }
 </style>
