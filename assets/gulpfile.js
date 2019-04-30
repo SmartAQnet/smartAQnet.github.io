@@ -12,10 +12,12 @@ const cssmin = require('gulp-cssmin')
 const replace = require('gulp-replace');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
+var tildeImporter = require('node-sass-tilde-importer');
 
 var sassOptions = {
     errLogToConsole: true,
-    outputStyle: 'expanded'
+    outputStyle: 'expanded',
+    importer: tildeImporter
 };
 
 gulp.task('js', function minijs() {
@@ -29,11 +31,12 @@ gulp.task('js', function minijs() {
 });
 
 gulp.task('css', function sassminicss() {
-    return gulp.src(['css/bootstrap-iso.scss'])
+    return gulp.src(['css/bootstrap.scss'])
+        .pipe(replace('~bootstrap/', 'foo'))
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cssmin())
-        .pipe(gulp.dest("css/vendor/"))
+        .pipe(gulp.dest("css/"))
 });
 
 gulp.task("img", function imging() {
