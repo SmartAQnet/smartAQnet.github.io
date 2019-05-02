@@ -1,0 +1,12 @@
+headline: Veranstaltungen und Termine
+entries:
+  - name: "Smart Air Quality Conference in Thessaloniki"
+    content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a>'
+    start:
+        day: "09"
+        month: "03"
+        year: "2020"
+    end:
+        day: "13"
+        month: "03"
+        year: "2020"
