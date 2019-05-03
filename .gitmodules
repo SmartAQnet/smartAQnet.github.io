@@ -1,4 +1,4 @@
 [submodule "dashboard"]
 	path = dashboard
-	url = https://github.com/limond/dashboard.git
-	branch = master
+	url = https://github.com/SmartAQnet/dashboard.git
+	branch = embedded-dashboard
