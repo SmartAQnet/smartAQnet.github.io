@@ -30,12 +30,12 @@ window.redirectToLanguage = function(){
         return;
     }
     //Guess an alternate URL by replacing the language in the current URL
-    var langPath = window.location.pathname.match(/\/(?<lang>\w{2})(?<langAgnosticPath>\/.*)/);
+    var langPath = window.location.pathname.match(/\/(\w{2})(\/.*)/);
     var newPath = "";
     //Special logic for the root page
-    if(langPath && langPath.groups.langAgnosticPath != "/"){
+    if(langPath && langPath.groups[2] != "/"){
         newPath = "/" + window.userLanguage + 
-            langPath.groups.langAgnosticPath + window.location.hash + window.location.search;
+            langPath.groups[2] + window.location.hash + window.location.search;
     }
     else if(window.userLanguage == "en"){
         newPath = "/";
