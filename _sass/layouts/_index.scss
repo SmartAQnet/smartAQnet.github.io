@@ -82,12 +82,22 @@
 // Post listing
 .posts {
     .post-teaser {
-        @extend %padding-regular;
+        @extend %padding-small;
         width: 100%;
         margin-bottom: 0;
         display: inline-block;
         background-size: $feature-image-size;
-        border-bottom: 1px solid $border-color;
+        position: relative;
+        ::after{
+            content:" ";
+            position: absolute;
+            display: block;
+            width: 90%;
+            left: 5%;
+            height: 0;
+            bottom: 0;
+            border-bottom: 1px solid rgb(226, 226, 226);
+        }
         p a {
             @extend .body-link;
         }
@@ -130,6 +140,73 @@
     }
     .excerpt {
         margin-top: 1em;
+    }
+}
+
+.slug-index-md .post-content{
+    @extend %padding-extended;
+}
+
+#home-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    aside {
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        flex-basis: 400px;
+        flex-shrink: 0;
+    }
+    .posts-and-nav{
+        margin-right: 2%;
+    }
+    .calendar-card{
+        margin-bottom: 20px;
+        overflow-y: auto;
+    }
+    .twitter-card{
+        flex-basis: 400px;
+        flex-grow: 1;
+        overflow-y: auto;
+        margin-bottom: 100px;
+    }
+    @media (max-width: 1440px) {
+        flex-direction: column-reverse;
+        aside{
+            flex-direction: row;
+            margin-bottom: 10%;
+            max-height: 400px;
+        }
+        .twitter-card{
+            margin-left: 10px;
+            margin-bottom: 0;
+            flex-grow: 1;
+        }
+        .calendar-card{
+            margin-right: 10px;
+            margin-bottom: 0;
+            flex-grow: 1;
+        }
+    }
+    @media (max-width: 850px) {
+        flex-direction: column-reverse;
+        aside{
+            flex-direction: column;
+            margin-bottom: 10%;
+            flex-basis: initial;
+            max-height: 800px;
+        }
+        .twitter-card{
+            margin-left: 0;
+            margin-bottom: 0;
+            flex-grow: 1;
+        }
+        .calendar-card{
+            margin-right: 0;
+            margin-bottom: 20px;
+            flex-grow: 1;
+        }
     }
 }
 

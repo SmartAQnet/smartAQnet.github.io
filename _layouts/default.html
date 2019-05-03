@@ -8,7 +8,7 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "en" }}">
   {% include head.html %}
-  <body class="{{bootstrap_whole_page_class | default: ""}} language-{{ page.lang | default: "en" }}">
+  <body class="{{bootstrap_whole_page_class | default: ""}} language-{{ page.lang | default: "en" }} slug-{{ page.name | slugify | default: "none" }}">
     {% include navbar.html %}
     <div class="content">
       {{ content }}

@@ -1,0 +1,28 @@
+<div class="card twitter-card">
+    <div class="card-body">
+        <h5 class="card-title">Tweets
+            <a href="https://help.twitter.com/en/twitter-for-websites-ads-info-and-privacy" class="twitter-privacy">
+                <i class="fas fa-info-circle"></i>
+            </a>
+        </h5>
+        <a class="twitter-timeline" data-chrome="nofooter noborders noheader" href="https://twitter.com/smartAQnet?ref_src=twsrc%5Etfw">Tweets by smartAQnet</a> <script id="twitter-script" async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
+
+<script>
+    (function(){
+        var script = document.querySelector('#twitter-script');
+        script.addEventListener('load', function() {
+            twttr.ready(function (twttr) {
+                twttr.events.bind('rendered', function (event) {
+                    $(event.target).contents().find('body').append('<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">\
+                    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">\
+                    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">');
+                });
+            });
+        });
+        /*var script = $("#twitter-script").load(function() {
+
+        });*/
+    })();
+</script>

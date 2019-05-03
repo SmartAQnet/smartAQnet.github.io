@@ -6,6 +6,16 @@
     }
 }
 
+%padding-extended {
+    padding: $padding-small $padding-medium * 2.5;
+    @media (max-width: 1000px) {
+        padding: $padding-small * 1.5 $padding-large / 1.6;
+    }
+    @media (max-width: 576px) {
+        padding: $padding-small;
+    }
+}
+
 %padding-regular {
     padding: $padding-small $padding-large;
     @media (max-width: 1000px) {

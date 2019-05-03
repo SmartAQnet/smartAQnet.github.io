@@ -1,0 +1,16 @@
+.timeline-Widget{
+    font-family: 'Roboto', Helvetica, Arial, sans-serif !important;
+    h1, h2, h3, h4, h5, h6, .TweetAuthor-name{
+        font-family: 'Roboto Condensed', sans-serif !important;
+    }
+}
+
+.twitter-card h5{
+    margin-bottom: 20px;
+}
+
+.twitter-card .twitter-privacy{
+    float: right;
+    font-size: 1rem;
+    color: lightgray;
+}

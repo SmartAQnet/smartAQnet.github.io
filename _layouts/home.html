@@ -2,5 +2,10 @@
 layout: page-headercard
 ---
   {{ content }}
-  {% include calendar.html %}
-  {% include blog.html %}
+  <div id="home-content">
+      {% include blog.html %}
+      <aside>
+          {% include calendar.html %}
+          {% include twitter-timeline.html %}
+      </aside>
+  </div>
