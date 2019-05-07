@@ -1,0 +1,12 @@
+headline: Events and dates
+entries:
+  - name: "Smart Air Quality Conference in Thessaloniki"
+    content: 'you can find more information on the <a href="http://www.airqualityconference.org/" target="_blank">conference website</a>'
+    start:
+        day: "09"
+        month: "03"
+        year: "2020"
+    end:
+        day: "13"
+        month: "03"
+        year: "2020"

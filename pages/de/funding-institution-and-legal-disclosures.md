@@ -55,6 +55,7 @@ konzentrieren sich auf strategische Forschung in den Bereichen Industrie 4.0,
 Energie, Smart Cities und personalisierte Medizin. Mehr hierzu finden Sie auch
 unter [http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/](http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/)
 
+<br><br>
 
 ### Impressum
 
@@ -169,6 +170,10 @@ validity of the other parts remain uninfluenced by this fact.
     max-width: 300px;
     float: left;
     margin: 20px;
+    margin-top: 0;
     padding: 0;
+}
+br{
+    clear: both;
 }
 </style>

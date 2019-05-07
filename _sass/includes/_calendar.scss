@@ -1,0 +1,117 @@
+.calendar{
+    .calendar-entry{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 60px;
+        align-items: flex-start;
+    }
+    .calendar-entry-body{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+    .calendar-date-container{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100px;
+      flex-grow: 0;
+      flex-shrink: 0;
+      align-content: center;
+      line-height: 130%;
+    }
+    .calendar-date{
+      display: flex;
+      flex-direction: row;
+    }
+    .calendar-day{
+      display: flex;
+      flex-direction: row;
+      flex-basis: 50px;
+      background-color: #2d497f;
+      flex-grow: 0;
+      flex-shrink: 0;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      font-weight: 700;
+    }
+    .calendar-year-month{
+      display: flex;
+      flex-direction: column;
+      flex-grow: 0;
+      color: #2d497f;
+      align-items: center;
+    }
+    .date-ellipsis{
+      color: #2d497f;
+      text-align: center;
+      width: 50px;
+      color: #b8d0ff;
+      font-size: 10px;
+    }
+    .calendar-month{
+      font-weight: 700;
+    }
+    .calendar-entry-title{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .calendar-entry-title-time{
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+    hr{
+        margin: 1.5rem -1.25rem 1.5rem -1.25rem;
+    }
+    h5{
+      margin-bottom: 20px;
+    }
+}
+
+$months-en: (
+    "01": "JAN",
+    "02": "FEB",
+    "03": "MAR",
+    "04": "APR",
+    "05": "MAY",
+    "06": "JUN",
+    "07": "JUL",
+    "08": "AUG",
+    "09": "SEPT",
+    "10": "OCT",
+    "11": "NOV",
+    "12": "DEC");
+
+$months-de: (
+    "01": "JAN",
+    "02": "FEB",
+    "03": "MÄRZ",
+    "04": "APR",
+    "05": "MAI",
+    "06": "JUN",
+    "07": "JUL",
+    "08": "AUG",
+    "09": "SEPT",
+    "10": "OKT",
+    "11": "NOV",
+    "12": "DEZ");
+
+body.language-de .calendar{
+    @each $month-number, $month in $months-de {
+        .month-#{$month-number}::before {
+            content: "#{$month}";
+        }
+    }
+}
+
+body.language-en .calendar{
+    @each $month-number, $month in $months-en {
+        .month-#{$month-number}::before {
+            content: "#{$month}";
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<div class="card calendar-card">
+    <div class="card-body calendar">
+        <h5 class="card-title">{{site.data[page.lang].calendar.headline}}</h5>
+        <div>
+            {% for item in site.data[page.lang].calendar.entries %}
+            <div class="calendar-entry">
+                <div class="calendar-date-container">
+                    <div class="calendar-date">
+                        <div class="calendar-day"><span>{{item.start.day}}</span></div>
+                        <div class="calendar-year-month ml-2">
+                            <div class="calendar-month month-{{item.start.month}}"></div>
+                            <div class="calendar-year">{{item.start.year}}</div>
+                        </div>
+                    </div>
+                    {% if item.end %}
+                    <i class="fa fa-ellipsis-v my-1 date-ellipsis" aria-hidden="true"></i>
+                    <div class="calendar-date">
+                        <div class="calendar-day"><span>{{item.end.day}}</span></div>
+                        <div class="calendar-year-month ml-2">
+                            <div class="calendar-month month-{{item.end.month}}"></div>
+                            <div class="calendar-year">{{item.end.year}}</div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+                <div class="calendar-entry-body">
+                    <div class="calendar-entry-title">
+                        <div class="calendar-entry-title-text">
+                            <h6>{{item.name}}</h6>
+                        </div>
+                        {% if item.time %}
+                        <div class="calendar-entry-title-time ml-3"><i
+                                class="far fa-clock mr-1 text-secondary"></i>{{item.time}}</div>
+                        {% endif %}
+                    </div>
+                    <div class="calendar-entry-body-text">
+                        {{item.content}}
+                    </div>
+                </div>
+            </div>
+            {% if forloop.last == false %}
+            <hr>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>

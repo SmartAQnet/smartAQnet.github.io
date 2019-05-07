@@ -64,6 +64,10 @@ in such systems. More see  [http://www.teco.edu/](http://www.teco.edu/).
     max-width: 300px;
     float: left;
     margin: 20px;
+    margin-top: 0;
     padding: 0;
+}
+br{
+    clear: both;
 }
 </style>

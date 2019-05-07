@@ -1,44 +1,46 @@
-<div class="posts">
-    {% assign posts_lang = site.posts | where:"lang", page.lang %}
-    {% assign post_page = 1 %}
-    <div class="post-page" id="post-page-{{post_page}}">
-    {% for post in posts_lang %}
-      {% include post-teaser.html %}
-      {% assign elementInPage = forloop.index | modulo: site.items_per_page %}
-      {% if elementInPage == 0 or forloop.index == forloop.length %}
-        </div>
-      {% endif %}
-      {% if elementInPage == 0 and forloop.index != forloop.length %}
-        {% assign post_page = post_page | plus: 1 %}
-        <div class="post-page" id="post-page-{{post_page}}">
-      {% endif %}
-    {% endfor %}
-    <div class="post-page" id="post-page-special-first">
-        {% for post in posts_lang limit: site.items_per_page %}
-          {% include post-teaser.html %}
-        {% endfor %}
-    </div>
-</div>
+<div class="posts-and-nav">
+  <div class="posts">
+      {% assign posts_lang = site.posts | where:"lang", page.lang %}
+      {% assign post_page = 1 %}
+      <div class="post-page" id="post-page-{{post_page}}">
+      {% for post in posts_lang %}
+        {% include post-teaser.html %}
+        {% assign elementInPage = forloop.index | modulo: site.items_per_page %}
+        {% if elementInPage == 0 or forloop.index == forloop.length %}
+          </div>
+        {% endif %}
+        {% if elementInPage == 0 and forloop.index != forloop.length %}
+          {% assign post_page = post_page | plus: 1 %}
+          <div class="post-page" id="post-page-{{post_page}}">
+        {% endif %}
+      {% endfor %}
+      <div class="post-page" id="post-page-special-first">
+          {% for post in posts_lang limit: site.items_per_page %}
+            {% include post-teaser.html %}
+          {% endfor %}
+      </div>
+  </div>
 
-<nav aria-label="Post teaser pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item page-item-prev">
-      <a class="page-link" href="#post-page-1" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-        <span class="sr-only">Previous</span>
-      </a>
-    </li>
-    {% for i in (1..post_page) %}
-      <li class="page-item d-none d-sm-block" data-page="{{i}}" onclick="makePageActive('{{i}}')"><a class="page-link" href="#post-page-{{i}}">{{i}}</a></li>
-    {% endfor %}
-    <li class="page-item page-item-next">
-      <a class="page-link" href="#post-page-{{post_page}}" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-        <span class="sr-only">Next</span>
-      </a>
-    </li>
-  </ul>
-</nav>
+  <nav aria-label="Post teaser pagination">
+    <ul class="pagination justify-content-center">
+      <li class="page-item page-item-prev">
+        <a class="page-link" href="#post-page-1" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</span>
+          <span class="sr-only">Previous</span>
+        </a>
+      </li>
+      {% for i in (1..post_page) %}
+        <li class="page-item d-none d-sm-block" data-page="{{i}}" onclick="makePageActive('{{i}}')"><a class="page-link" href="#post-page-{{i}}">{{i}}</a></li>
+      {% endfor %}
+      <li class="page-item page-item-next">
+        <a class="page-link" href="#post-page-{{post_page}}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</span>
+          <span class="sr-only">Next</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
 
 <script>
   (function(){
