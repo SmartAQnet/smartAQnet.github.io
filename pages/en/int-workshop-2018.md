@@ -2,8 +2,8 @@
 layout: gallery
 title: International Workshop 04 - 05 December 2018
 subtitle: 04 – 05 Dezember 2018 Helmholtz Zentrum, Munic
-gallery_path: "/assets/img/gallaries/int-workshop"
-feature-img: "/assets/img/gallaries/int-workshop/WS%2020181204_153211.jpg"
+gallery_path: "/assets/img/galleries/int-workshop"
+feature-img: "/assets/img/galleries/int-workshop/WS%2020181204_153211.jpg"
 indexed: true
 ---
 <div class="card" style="margin-bottom: 20px">

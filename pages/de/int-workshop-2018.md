@@ -2,8 +2,8 @@
 layout: gallery
 title: Workshop zum Projekt Smart Air Quality Network
 subtitle: 04 – 05 Dezember 2018 Helmholtz Zentrum München
-gallery_path: "/assets/img/gallaries/int-workshop"
-feature-img: "/assets/img/gallaries/int-workshop/WS%2020181204_153211.jpg"
+gallery_path: "/assets/img/galleries/int-workshop"
+feature-img: "/assets/img/galleries/int-workshop/WS%2020181204_153211.jpg"
 indexed: true
 ---
 
