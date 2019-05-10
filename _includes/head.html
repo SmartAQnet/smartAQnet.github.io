@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="{{ site.theme_settings.favicon | relative_url }}" type="image/x-icon">
+    {% include icon_code.html %}
 
     <!-- Canonical -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
