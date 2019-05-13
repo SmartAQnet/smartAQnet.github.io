@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Work Packages
-feature-img: "/assets/img/project-images/20171012_172134.jpg"
-feature-img: "/assets/img/project-images/IMG_20171017_131438.jpg"
+feature-img: "/assets/static/img/project-images/20171012_172134.jpg"
+feature-img: "/assets/static/img/project-images/IMG_20171017_131438.jpg"
 background-position-y: "10%"
 indexed: true
 ---

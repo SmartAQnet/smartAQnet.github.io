@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Über Uns
-feature-img: "assets/img/project-images/Kickoff 20170726_featured_img.jpg"
+feature-img: "assets/static/img/project-images/Kickoff 20170726_featured_img.jpg"
 center-feature-img: true
 indexed: true
 ---
@@ -13,7 +13,7 @@ und Wissenschaftskommunikation an Öffentlichkeit und spezielle Stakeholder" vor
 
 <br><br>
 
-[![Aerosol Akademie logo](/assets/img/logos/00-Logo_freigestellt.png)](http://www.aerosol-akademie.de/)
+[![Aerosol Akademie logo](/assets/static/img/logos/00-Logo_freigestellt.png)](http://www.aerosol-akademie.de/)
 Die **Aerosol Akademie** (kurz: AA) ist eine regionale, nationale und
 internationale Anlaufstelle für Personen und Institutionen aus Wissenschaft,
 Wirtschaft, Behörden und Verwaltung. Sie betreibt ein interdisziplinäres
@@ -31,7 +31,7 @@ Institutionen.
 
 <br><br>
 
-[![Stadt Augsburg logo](/assets/img/logos/Logo-Stadt_Augsburg-rotgruen-RGB.png)](http://www.augsburg.de/umwelt-soziales/umwelt/)
+[![Stadt Augsburg logo](/assets/static/img/logos/Logo-Stadt_Augsburg-rotgruen-RGB.png)](http://www.augsburg.de/umwelt-soziales/umwelt/)
 Das **Umweltamt der Stadt Augsburg** (kurz: AUG) unterstützt das Vorhaben des
 Partnerverbunds als ungefördeter Projektpartner. Die Kommunikation mit
 interessierten Augsburger Schulen, die bereits im Bereich Umweltforschung und
@@ -43,7 +43,7 @@ erreicht werden. Mehr siehe
 
 <br><br>
 
-![Grimm logo](/assets/img/logos/grimm_2017_final.jpg)
+![Grimm logo](/assets/static/img/logos/grimm_2017_final.jpg)
 Die **GRIMM Aerosol
 Technik Ainring GmbH & Co. KG** (kurz: GRIMM) ist weltweit eines der
 namhaftesten Unternehmen im Bereich von Umwelt- und Arbeitsschutzmesssungen, ob
@@ -68,7 +68,7 @@ Einsatz, sowohl mobil, als auch flugfähig oder stationär möglich sein.  
 
 <br><br>
 
-[![Helmholtz Zentrum München logo](/assets/img/logos/Helmholtz%20resized.jpg)](https://www.helmholtz-muenchen.de/epi2/index.html)
+[![Helmholtz Zentrum München logo](/assets/static/img/logos/Helmholtz%20resized.jpg)](https://www.helmholtz-muenchen.de/epi2/index.html)
 Der Fokus der Forschung vom **Institut für Epidemiologie** (kurz EPI) des
 **Helmholtz Zentrum München** liegt sowohl auf der umfassenden Erfassung von
 Umweltstressoren (z.B. Luftschadstoffe, meteorologische Parameter, Lärm) als
@@ -86,7 +86,7 @@ siehe [https://www.helmholtz-muenchen.de/epi/index.html](https://www.helmholtz-
 
 <br><br>
 
-[![Helmholtz Zentrum München logo](/assets/img/logos/Helmholtz%20resized.jpg)](https://www.helmholtz-muenchen.de/epi2/index.html)
+[![Helmholtz Zentrum München logo](/assets/static/img/logos/Helmholtz%20resized.jpg)](https://www.helmholtz-muenchen.de/epi2/index.html)
 Die **Kooperationsgruppe Comprehensive Molecular Analytics** (CMA)
 des **Helmholtz Zentrum München** erforscht seit Mitte der 1990er Jahre die
 Zusammensetzung und die Quellen von Partikeln (PM) sowie Prozesse die zur
@@ -105,7 +105,7 @@ persönlichen Exposition werden aktuell weiterentwickelt. Mehr siehe
 
 <br><br>
 
-[![Karlsruher Institut für Technologie logo](/assets/img/logos/KIT_Logo_final.png)](http://www.imk-ifu.kit.edu/institute.php)
+[![Karlsruher Institut für Technologie logo](/assets/static/img/logos/KIT_Logo_final.png)](http://www.imk-ifu.kit.edu/institute.php)
 Die Arbeitsgruppe von Prof. Emeis des **Instituts für Meteorologie und
 Klimaforschung, Institut für Atmosphärische Umweltforschung** (kurz IMK-IFU) am
 **Karlsruher Institut für Technologie** verfügt unter anderem über Expertise in
@@ -123,7 +123,7 @@ siehe [https://www.imk-ifu.kit.edu/index.php](https://www.imk-ifu.kit.edu/index
 
 <br><br>
 
-[![Universität Augsburg logo](/assets/img/logos/Logo_UniAugsburg.png)](https://www.geo.uni-augsburg.de/lehrstuhl_professur/phygeo/)
+[![Universität Augsburg logo](/assets/static/img/logos/Logo_UniAugsburg.png)](https://www.geo.uni-augsburg.de/lehrstuhl_professur/phygeo/)
 Die Forschungsaktivitäten am **Lehrstuhl für Physische Geographie und
 Quantitative Methoden des Instituts für Geographie der Universität Augsburg**
 (IGUA) konzentrieren sich vor allem auf die drei Bereiche Klimaforschung,
@@ -143,7 +143,7 @@ https://www.geo.uni-augsburg.de/lehrstuhl\_professur/phygeo/.
 
 <br><br>
 
-[![Forschungsgruppe TECO logo](/assets/img/logos/teco bearb_final.jpg)](https://pcs.tm.kit.edu/149.php) Der **Lehrstuhl für Pervasive
+[![Forschungsgruppe TECO logo](/assets/static/img/logos/teco bearb_final.jpg)](https://pcs.tm.kit.edu/149.php) Der **Lehrstuhl für Pervasive
 Computing Systems** am **Institut für Telematik** und die **Forschungsgruppe
 TECO** (kurz: KIT-TECO) des **Karlsruher Instituts für Technologie** (KIT) haben
 eine lange Tradition in der Forschung in den Bereichen Pervasive und Ubiquitous

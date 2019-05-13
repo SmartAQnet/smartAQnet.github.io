@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Funding Institutions and Legal Disclosures
-feature-img: "assets/img/project-images/Kickoff 20170726_featured_img.jpg"
+feature-img: "assets/static/img/project-images/Kickoff 20170726_featured_img.jpg"
 center-feature-img: true
 bootstrap: true
 indexed: true
@@ -9,7 +9,7 @@ indexed: true
 
 ### Funding Institutions
 
-![BMVI logo](/assets/img/logos/Logo BMVI_1.png)
+![BMVI logo](/assets/static/img/logos/Logo BMVI_1.png)
 The research project smartAQnet
 is funded by the **Federal Ministry of Transport and Digital Infrastructure**
 (grant number: 19F2003). The ministry is headed by the Federal Minister for
@@ -22,7 +22,7 @@ responsibilities.
 
 <br><br>
 
-![mFUND logo](/assets/img/logos/mfund-logo-download-resized.jpg)
+![mFUND logo](/assets/static/img/logos/mfund-logo-download-resized.jpg)
 As part of the research initiative **mFUND**, the BMVI has been funding research and
 development projects for digital data-based applications for Mobility 4.0 since
 2016. In addition to financial support, mFUND supports the networking of actors
@@ -31,7 +31,7 @@ with various event formats.
 
 <br><br>
 
-![mCLOUD logo](/assets/img/logos/mcloud-logo.jpg)
+![mCLOUD logo](/assets/static/img/logos/mcloud-logo.jpg)
 The BMVI provides mobility, geo and weather data for its business area via the open data portal **mCLOUD**.
 In the future, founders, startups and mobility providers will have a
 one-stop-shop for mCLOUD for fast, uncomplicated and free access to data from a
@@ -42,7 +42,7 @@ collected.
 
 <br><br>
 
-![Smart Data Innovation Lab logo](/assets/img/logos/sdil-logo.png)
+![Smart Data Innovation Lab logo](/assets/static/img/logos/sdil-logo.png)
 The **Smart Data Innovation Lab (SDIL)** provides a unique opportunity for big data
 researchers to use a wide range of big data and in-memory technologies. Industry
 and science work closely together to find hidden values ​​in big data and to

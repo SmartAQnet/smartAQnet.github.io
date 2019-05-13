@@ -15,7 +15,7 @@
         script.addEventListener('load', function() {
             twttr.ready(function (twttr) {
                 twttr.events.bind('rendered', function (event) {
-                    $(event.target).contents().find('body').append('<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">\
+                    $(event.target).contents().find('body').append('<link rel="stylesheet" href="{{ '/assets/src/css/main.css' | relative_url }}">\
                     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">\
                     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">');
                 });

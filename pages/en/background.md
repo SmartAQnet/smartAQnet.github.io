@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Background
-feature-img: "/assets/img/project-images/IMG_20171017_131438.jpg"
+feature-img: "/assets/static/img/project-images/IMG_20171017_131438.jpg"
 background-position-y: "34%"
 indexed: true
 ---
@@ -16,7 +16,7 @@ city of Augsburg. To ensure a high spatial coverage while maintaining high data
 quality, measurements are combined with low-cost sensors and reference devices
 distributed in the city.
 
-![dataflow in the SmartAQnet](/assets/img/project-images/Projekt%20SAQN%20Mitmachen_1.png)
+![dataflow in the SmartAQnet](/assets/static/img/project-images/Projekt%20SAQN%20Mitmachen_1.png)
 
 ### Particulate Matter
 

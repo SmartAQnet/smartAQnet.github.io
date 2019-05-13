@@ -21,31 +21,30 @@ var sassOptions = {
 };
 
 gulp.task('js', function minijs() {
-    return gulp.src(['js/partials/**.js'])
+    return gulp.src(['src/js/partials/**.js'])
         .pipe(concat('main.min.js'))
         //.pipe(uglify())
         .on('error', (err) => {
             console.log(err.toString());
         })
-        .pipe(gulp.dest("js/"))
+        .pipe(gulp.dest("dist/js/"))
 });
 
 gulp.task('css', function sassminicss() {
-    return gulp.src(['css/bootstrap.scss'])
-        .pipe(replace('~bootstrap/', 'foo'))
+    return gulp.src(['src/css/bootstrap.scss'])
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cssmin())
-        .pipe(gulp.dest("css/"))
+        .pipe(gulp.dest("dist/css/"))
 });
 
 gulp.task("img", function imging() {
-    return gulp.src('img/**/*.{png,svg,jpg,gif}')
+    return gulp.src('static/img/**/*.{png,svg,jpg,gif}')
         .pipe(imagemin())
         .on('error', (err) => {
             console.log(err.toString());
         })
-        .pipe(gulp.dest('img/'))
+        .pipe(gulp.dest('static/img/'))
 });
 
 gulp.task("serve", function serving(done) {

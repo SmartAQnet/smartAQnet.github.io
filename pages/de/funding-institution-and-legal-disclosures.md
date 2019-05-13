@@ -1,14 +1,14 @@
 ---
 layout: page
 title: Fördergeldgeber und Impressum
-feature-img: "assets/img/project-images/Kickoff 20170726_featured_img.jpg"
+feature-img: "assets/static/img/project-images/Kickoff 20170726_featured_img.jpg"
 center-feature-img: true
 indexed: true
 ---
 
 ### Fördergeldgeber
 
-![BMVI logo](/assets/img/logos/Logo BMVI_1.png)
+![BMVI logo](/assets/static/img/logos/Logo BMVI_1.png)
 Das Forschungsprojekt SmartAQnet
 wird vom **Bundesministerium für Verkehr und digitale
 Infrastruktur** (BMVI) gefördert (Kennzeichen: 19F2003). An der Spitze des
@@ -22,7 +22,7 @@ seinen Leitungs- und Regierungsaufgaben.
 
 <br><br>
 
-![mFUND logo](/assets/img/logos/mfund-logo-download-resized.jpg)
+![mFUND logo](/assets/static/img/logos/mfund-logo-download-resized.jpg)
 Im Rahmen der
 Forschungsinitiative **mFUND** fördert das BMVI seit 2016 Forschungs- und
 Entwicklungsprojekte rund um digitale datenbasierte Anwendungen für die
@@ -33,7 +33,7 @@ Politik, Wirtschaft und Forschung sowie den Zugang zum Datenportal mCLOUD.
 
 <br><br>
 
-![mCLOUD logo](/assets/img/logos/mcloud-logo.jpg)
+![mCLOUD logo](/assets/static/img/logos/mcloud-logo.jpg)
 Über das offene
 Datenportal [**mCLOUD**](http://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-hinweis-mcloud.html?nn=337780) stellt
 das BMVI Mobilitäts-, Geo- und Wetterdaten seines Geschäftsbereichs zur
@@ -46,7 +46,7 @@ weitere Datensätze erschlossen, bestehende digitalisiert und neue Daten erhoben
 
 <br><br>
 
-![Smart Data Innovation Lab logo](/assets/img/logos/sdil-logo.png)
+![Smart Data Innovation Lab logo](/assets/static/img/logos/sdil-logo.png)
 Das **Smart Data Innovation Lab (SDIL)** bietet Big Data-Forschern eine einzigartige
 Möglichkeit eine breite Palette von Big Data- und In-Memory-Technologien
 einzusetzen. Industrie und Wissenschaft arbeiten eng zusammen um verborgene

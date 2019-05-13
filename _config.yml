@@ -35,13 +35,12 @@ defaults:
 theme_settings:
   # Meta
   title: SmartAQnet # blog's title
-  avatar: "assets/img/logos/SmartAQnet_logo.png"
-  favicon: assets/favicon.ico
+  avatar: "assets/static/img/logos/SmartAQnet_logo.png"
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: Change header text in <code>_config.yml</code>
-  header_feature_image: assets/img/pexels/triangular.jpeg
+  header_feature_image: assets/static/img/pexels/triangular.jpeg
   footer_text: >
     Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 

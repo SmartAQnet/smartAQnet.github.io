@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hintergrund
-feature-img: "/assets/img/project-images/IMG_20171017_131438.jpg"
+feature-img: "/assets/static/img/project-images/IMG_20171017_131438.jpg"
 background-position-y: "34%"
 indexed: true
 ---
@@ -65,7 +65,7 @@ funktionell und anatomisch sehr eng  miteinander verbunden. Deshalb
 können Störungen des einen Systems - wie etwa entzündliche Veränderungen im
 Atemtrakt - auch das andere System, also Herz oder Kreislauf, beeinträchtigen.
 
-![Datenfluss im SmartAQnet](/assets/img/project-images/Projekt%20SAQN%20Mitmachen_1.png)
+![Datenfluss im SmartAQnet](/assets/static/img/project-images/Projekt%20SAQN%20Mitmachen_1.png)
 
 Die Weltgesundheitsorganisation (WHO) hat in Untersuchungen festgestellt, dass
 es keine Feinstaubkonzentration gibt, unterhalb derer keine schädigende Wirkung

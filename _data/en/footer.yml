@@ -3,39 +3,39 @@ funding:
   entries:
     - name: "BMVI" # used for alt text in img tag
       link: "https://www.bmvi.de"
-      image: "/assets/img/logos/Logo BMVI_1.png"
+      image: "/assets/static/img/logos/Logo BMVI_1.png"
 
     - name: "mFUND"
       link: "https://www.bmvi.de/EN/Topics/Digital-Matters/mFund/mFund.html"
-      image: "/assets/img/logos/mfund-logo-download-resized.jpg"
+      image: "/assets/static/img/logos/mfund-logo-download-resized.jpg"
 
 partners:
   name: "Project Partners"
   entries:
     - name: "Aerosol Akademie"
       link: "http://www.aerosol-akademie.de/"
-      image: "/assets/img/logos/00-Logo_freigestellt.png"
+      image: "/assets/static/img/logos/00-Logo_freigestellt.png"
 
     - name: "Stadt Augsburg"
       link: "http://www.augsburg.de/umwelt-soziales/umwelt/"
-      image: "/assets/img/logos/Logo-Stadt_Augsburg-rotgruen-RGB.png"
+      image: "/assets/static/img/logos/Logo-Stadt_Augsburg-rotgruen-RGB.png"
 
     - name: "Grimm"
       link: "https://www.grimm-aerosol.com/"
-      image: "/assets/img/logos/grimm_2017_final.jpg"
+      image: "/assets/static/img/logos/grimm_2017_final.jpg"
 
     - name: "Helmholtz Zentrum München"
       link: "https://www.helmholtz-muenchen.de/epi2/index.html"
-      image: "/assets/img/logos/Helmholtz%20resized.jpg"
+      image: "/assets/static/img/logos/Helmholtz%20resized.jpg"
 
     - name: "Karlsruher Institut für Technologie"
       link: "http://www.imk-ifu.kit.edu/institute.php"
-      image: "/assets/img/logos/KIT_Logo_final.png"
+      image: "/assets/static/img/logos/KIT_Logo_final.png"
 
     - name: "Universität Augsburg"
       link: "https://www.geo.uni-augsburg.de/lehrstuhl_professur/phygeo/"
-      image: "/assets/img/logos/Logo_UniAugsburg_alt.png"
+      image: "/assets/static/img/logos/Logo_UniAugsburg_alt.png"
 
     - name: "Forschungsgruppe TECO"
       link: "https://pcs.tm.kit.edu/149.php"
-      image: "/assets/img/logos/teco bearb_final.jpg"
+      image: "/assets/static/img/logos/teco bearb_final.jpg"

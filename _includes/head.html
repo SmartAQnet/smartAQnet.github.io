@@ -3,10 +3,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
-    <script defer=true src="{{ '/assets/js/main.min.js' | relative_url }}"></script>
+    <script defer=true src="{{ '/assets/dist/js/main.min.js' | relative_url }}"></script>
     
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/src/css/main.css' | relative_url }}">
 
     <!--Favicon-->
     {% include icon_code.html %}
@@ -19,14 +19,14 @@
 
     <!-- Font Awesome -->
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/vendor/font-awesome.min.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/static/css/vendor/font-awesome.min.css' | relative_url }}">
 
     <!-- Roboto -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     
     <!-- Bootstrap material isolation CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/bootstrap.css' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/dist/css/bootstrap.css' | relative_url }}">
     <!-- JQuery 3.3.1 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <!-- Bootstrap 4.1.3 compiled and minified JavaScript -->
@@ -41,8 +41,8 @@
 
     <!-- KaTeX 0.8.3 -->
     {% if site.theme_settings.katex %}
-    <link rel="stylesheet" type="text/css" href="{{ '/assets/css/vendor/katex.min.css' | relative_url }}">
-    <script src="{{ '/assets/js/vendor/katex.min.js' | relative_url }}">
+    <link rel="stylesheet" type="text/css" href="{{ '/assets/static/css/vendor/katex.min.css' | relative_url }}">
+    <script src="{{ '/assets/static/js/vendor/katex.min.js' | relative_url }}">
     </script>
     {% endif %}
 

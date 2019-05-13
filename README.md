@@ -101,7 +101,7 @@ Change these variables in `_config.yml`:
 ```yml
   theme_settings:
     title: My Jekyll Blog                 # Name of website
-    avatar: assets/img/triangular.svg     # Path of avatar image, to be displayed in the theme's header
+    avatar: assets/static/img/triangular.svg     # Path of avatar image, to be displayed in the theme's header
     gravatar: f98....6bfc                 # MD5 hash of your email address
     description: My blog posts            # Short description, primarily used by search engines
 ```
@@ -115,7 +115,7 @@ Customize your site header/footer with these variables in `_config.yml`:
 ```yml
   theme_settings:
     header_text: Welcome to my Jekyll blog
-    header_text_feature_image: assets/img/sample3.png
+    header_text_feature_image: assets/static/img/sample3.png
     footer_text: Copyright 2017
 ```
 
@@ -237,8 +237,8 @@ This are the basic features you can use with the  `post` layout.
 layout: post
 title: Hello World                                # Title of the page
 hide_title: true                                  # Hide the title when displaying the post, but shown in lists of posts
-feature-img: "assets/img/sample.png"              # Add a feature-image to the post
-thumbnail: "assets/img/thumbnail/sample-th.png"   # Add a thumbnail image on blog view
+feature-img: "assets/static/img/sample.png"              # Add a feature-image to the post
+thumbnail: "assets/static/img/thumbnail/sample-th.png"   # Add a thumbnail image on blog view
 bootstrap: true                                   # Add bootstrap to the page
 tags: [sample, markdown, html]
 ---
@@ -257,7 +257,7 @@ The page layout have a bit more features explained here.
 layout: page
 title: "About" 
 subtitle: "This is a subtitle"   
-feature-img: "assets/img/sample.png" 
+feature-img: "assets/static/img/sample.png" 
 permalink: /about.html               # Set a permalink your your page
 hide: true                           # Prevent the page title to appear in the navbar
 tags: [sample, markdown, html]
@@ -305,7 +305,7 @@ You can create a gallery using [Masonry JS](https://masonry.desandro.com/) which
 ---
 layout: page
 title: Gallery
-gallery: "assets/img/pexels"
+gallery: "assets/static/img/pexels"
 ---
 
 {% include gallery.html gallery_path=page.gallery %}
