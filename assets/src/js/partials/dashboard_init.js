@@ -1,0 +1,1 @@
+window.stURL="https://api.smartaq.net";
