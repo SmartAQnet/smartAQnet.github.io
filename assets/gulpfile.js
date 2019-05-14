@@ -47,13 +47,13 @@ gulp.task("img", function imging() {
         .pipe(gulp.dest('static/img/'))
 });
 
-gulp.task("serve", function serving(done) {
-    console.log('... not working at the moment try \ncd .. && bundle exec jekyll serve --watch\n',
-                'then go to \nhttp://localhost:4000/Type-on-Strap/');
-    shell.task([
-        "python -m webbrowser 'http://localhost:4000/Type-on-Strap/'; cd .. && bundle exec jekyll serve --watch"
-    ]);
-    done();
-});
+const watchOptions = {
+    usePolling: !!process.env.USE_POLLING
+}
 
 gulp.task("default", gulp.series(gulp.parallel('js', 'css', 'img')));
+gulp.task('compileAndWatch', gulp.series('default', function watch() {
+    console.log("Watching Javascript and CSS files. Restart for minifying additional images.")
+    gulp.watch(['js/partials/*', 'js/vendors/*'], watchOptions, gulp.series('js'));
+    gulp.watch(['fonts/**/*', 'css/**/*.scss', 'css/vendor/*'], watchOptions, gulp.series('css'));
+}));

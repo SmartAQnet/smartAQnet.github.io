@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  gh-pages:
+    build: https://github.com/github/pages-gem.git#v198
+    volumes:
+      - ../:/src/site
+    ports:
+      - ${PORT}:4000
+    entrypoint:
+      - "jekyll"
+      - "serve"
+      - "--verbose"
+      - "-H"
+      - "0.0.0.0"
+      - "-P"
+      - "4000"
+  gulp:
+    build: ../assets
+    working_dir: /src/mnt
+    volumes:
+      - ../assets/:/src/mnt
+    entrypoint:
+      - "../node_modules/gulp/bin/gulp.js"
+      - "compileAndWatch"
