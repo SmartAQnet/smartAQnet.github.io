@@ -1,5 +1,4 @@
 .site-footer {
-    @extend %padding-small;
     border-top: 1px solid $border-color;
     display: block;
     width: 100%;
@@ -10,6 +9,7 @@
         width: 100%;
     }
     .container{
+        @extend %padding-small;
         max-width: 100% !important;
         font-size: .875rem;
         text-transform: uppercase;
@@ -31,6 +31,44 @@
         @media (max-width: 1199.99px){
             #partner-logos-col{
                 margin-top: 30px;
+            }
+        }
+    }
+    #post-footer {
+        display: flex;
+        justify-content: center;
+        margin-top: 2.5rem;
+        background-color: #EDEDED;
+    }
+
+    #footer-links {
+        display: flex;
+        a {
+            color: lighten($text-color, 24%);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        a:not(:last-child):after {
+            content: "|";
+            margin: 0 10px 0 10px;
+            pointer-events: none;
+            cursor: default;
+        }
+        padding: 1.5rem 0 1.5rem 0; 
+    }
+
+    @media (max-width: 576px) {
+        #post-footer {
+            justify-content: flex-start;
+        }
+        #footer-links {
+            margin-left: 2rem;
+            flex-direction: column;
+            a:not(:last-child):after {
+                display: none;
+            }
+            a {
+                line-height: 2rem;
             }
         }
     }

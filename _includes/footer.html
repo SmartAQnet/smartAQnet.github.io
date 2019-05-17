@@ -19,4 +19,11 @@
             </div>
         </div>
     </div>
+    <div id="post-footer">
+        <div id="footer-links">
+            {% for link in site.data[page.lang].footer.links %}
+                <a href="{{ link.link }}">{{ link.name }}</a>
+            {% endfor %}
+        </div>
+    </div>
 </footer>

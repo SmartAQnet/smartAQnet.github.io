@@ -39,3 +39,10 @@ partners:
     - name: "Forschungsgruppe TECO"
       link: "https://pcs.tm.kit.edu/149.php"
       image: "/assets/static/img/logos/teco bearb_final.jpg"
+
+links:
+  - name: "Impressum und Datenschutz"
+    link: "/de/funding-institution-and-legal-disclosures/#impressum"
+
+  - name: "Fehler melden"
+    link: "https://github.com/SmartAQnet/smartAQnet.github.io/wiki/Report-Problems"
