@@ -1,28 +1,39 @@
 #post-nav {
     width: 100%;
-    display: block;
+    display: flex;
+    justify-content: space-between;
     @extend %padding-small;
    
     a {
         width: 100%;
         padding: 0;
         margin: 0;
+        text-align: left;
     }
     p {
         @extend .meta;
     }
     
     #previous-post {
-        float: left;
+        margin-right: 3rem;
     }
     
     #next-post {
-        float: right;
+        margin-left: 3rem;
     }
     
     @media screen and (max-width: $sm-break) {
-    a, p {
-        font-size: 0.8em;
+        flex-direction: column;
+        a, p {
+            font-size: 0.8em;
+        }
+        #previous-post {
+            margin-right: 0;
+        }
+        
+        #next-post {
+            margin-top: 1rem;
+            margin-left: 0;
+        }
     }
-}
 }
