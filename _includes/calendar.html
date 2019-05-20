@@ -2,19 +2,25 @@
     <div class="card-body calendar">
         <h5 class="card-title">{{site.data[page.lang].calendar.headline}}</h5>
         <div>
+            {% comment %} This iterates over each calendar entry in _data/XX/calendar.yml {% endcomment %}
             {% for item in site.data[page.lang].calendar.entries %}
             <div class="calendar-entry">
                 <div class="calendar-date-container">
+                    {% comment %} calendar-date-container is the left part of each entry that displays dates {% endcomment %}
                     <div class="calendar-date">
+                        {% comment %} Start date {% endcomment %}
                         <div class="calendar-day"><span>{{item.start.day}}</span></div>
                         <div class="calendar-year-month ml-2">
+                            {% comment %} month is specified as a class postfix. Month name is then added in CSS. {% endcomment %}
                             <div class="calendar-month month-{{item.start.month}}"></div>
                             <div class="calendar-year">{{item.start.year}}</div>
                         </div>
                     </div>
                     {% if item.end %}
+                    {% comment %} ellipsis between start and end date, if end date given {% endcomment %}
                     <i class="fa fa-ellipsis-v my-1 date-ellipsis" aria-hidden="true"></i>
                     <div class="calendar-date">
+                        {% comment %} End date, if given {% endcomment %}
                         <div class="calendar-day"><span>{{item.end.day}}</span></div>
                         <div class="calendar-year-month ml-2">
                             <div class="calendar-month month-{{item.end.month}}"></div>
@@ -24,11 +30,13 @@
                     {% endif %}
                 </div>
                 <div class="calendar-entry-body">
+                    {% comment %} Right section of an entry with title and content {% endcomment %}
                     <div class="calendar-entry-title">
                         <div class="calendar-entry-title-text">
                             <h6>{{item.name}}</h6>
                         </div>
                         {% if item.time %}
+                        {% comment %} If time given, renders clock and time {% endcomment %}
                         <div class="calendar-entry-title-time ml-3"><i
                                 class="far fa-clock mr-1 text-secondary"></i>{{item.time}}</div>
                         {% endif %}

@@ -1,10 +1,13 @@
+{% comment %} Filter posts for current language {%endcomment%}
 {% assign posts_lang = site.posts | where:"lang", page.lang %}
+{% comment %} Find index of current and next post {%endcomment%}
 {% for post in posts_lang %}
     {% if post.url == page.url %}
         {% assign post_index0 = forloop.index0 %}
         {% assign post_index1 = forloop.index %}
     {% endif %}
 {% endfor %}
+{% comment %} Find previous and next post by index comparison {%endcomment%}
 {% for post in posts_lang %}
     {% if post_index0 == forloop.index %}
         {% assign next_post = post %}
