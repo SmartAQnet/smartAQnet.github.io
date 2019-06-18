@@ -10,3 +10,8 @@ video {
 .ekko-lightbox-container img{
     padding: 0;
 }
+
+body{
+    /* prevents a bug of bootstrap adding a padding after modal close: https://stackoverflow.com/questions/32862394/bootstrap-modals-keep-adding-padding-right-to-body-after-closed*/
+    padding-right: 0 !important;
+}
