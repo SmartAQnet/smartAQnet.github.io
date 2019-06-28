@@ -20,6 +20,7 @@ services:
     working_dir: /src/mnt
     volumes:
       - ../assets/:/src/mnt
+      - ../dashboard/:/src/dashboard
     entrypoint:
       - "../node_modules/gulp/bin/gulp.js"
       - "compileAndWatch"
