@@ -1,0 +1,4 @@
+.embedded-dashboard{
+    @import '../dashboard/content/css/app';
+    @import './dashboard-override';
+}

@@ -1,0 +1,18 @@
+.dashboard-menu a{
+    color: #5A738E;
+  }
+
+.dashboard-menu a.active, .dashboard-menu a:hover{
+    color: inherit;
+}
+
+.card{
+    border: none;
+    border-radius: 0.125rem;
+    padding: unset;
+    margin: unset;
+}
+
+.st-table{
+    font-size: 1rem;
+}
