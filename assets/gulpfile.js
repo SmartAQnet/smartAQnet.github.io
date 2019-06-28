@@ -31,7 +31,7 @@ gulp.task('js', function minijs() {
 });
 
 gulp.task('css', function sassminicss() {
-    return gulp.src(['src/css/bootstrap.scss'])
+    return gulp.src(['src/css/bootstrap.scss', 'src/css/dashboard.scss'])
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cssmin())
@@ -55,5 +55,5 @@ gulp.task("default", gulp.series(gulp.parallel('js', 'css', 'img')));
 gulp.task('compileAndWatch', gulp.series('default', function watch() {
     console.log("Watching Javascript and CSS files. Restart for minifying additional images.")
     gulp.watch(['js/partials/*', 'js/vendors/*'], watchOptions, gulp.series('js'));
-    gulp.watch(['fonts/**/*', 'css/**/*.scss', 'css/vendor/*'], watchOptions, gulp.series('css'));
+    gulp.watch(['fonts/**/*', 'css/**/*.scss', 'css/vendor/*', '../dashboard/content/css/*'], watchOptions, gulp.series('css'));
 }));
