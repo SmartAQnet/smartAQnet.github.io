@@ -10,6 +10,7 @@ const shell = require('gulp-shell');
 const less = require('gulp-less');
 const cssmin = require('gulp-cssmin')
 const replace = require('gulp-replace');
+const through2 = require('through2');
 var sass = require('gulp-sass');
 var autoprefixer = require('gulp-autoprefixer');
 var tildeImporter = require('node-sass-tilde-importer');
@@ -20,6 +21,17 @@ var sassOptions = {
     importer: tildeImporter
 };
 
+/*
+    Changes mTime of the output file.
+    This is needed for jekyll to pick up the changes in gulp generated CSS files.
+*/
+const mTimeChangeStream = () => through2.obj( function( file, enc, cb ) {
+    let date = new Date();
+    file.stat.atime = date;
+    file.stat.mtime = date;
+    cb( null, file );
+});
+
 gulp.task('js', function minijs() {
     return gulp.src(['src/js/partials/**.js'])
         .pipe(concat('main.min.js'))
@@ -27,6 +39,7 @@ gulp.task('js', function minijs() {
         .on('error', (err) => {
             console.log(err.toString());
         })
+        .pipe(mTimeChangeStream())
         .pipe(gulp.dest("dist/js/"))
 });
 
@@ -35,6 +48,7 @@ gulp.task('css', function sassminicss() {
         .pipe(sass(sassOptions).on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(cssmin())
+        .pipe(mTimeChangeStream())
         .pipe(gulp.dest("dist/css/"))
 });
 
@@ -44,6 +58,7 @@ gulp.task("img", function imging() {
         .on('error', (err) => {
             console.log(err.toString());
         })
+        .pipe(mTimeChangeStream())
         .pipe(gulp.dest('static/img/'))
 });
 
@@ -54,6 +69,6 @@ const watchOptions = {
 gulp.task("default", gulp.series(gulp.parallel('js', 'css', 'img')));
 gulp.task('compileAndWatch', gulp.series('default', function watch() {
     console.log("Watching Javascript and CSS files. Restart for minifying additional images.")
-    gulp.watch(['js/partials/*', 'js/vendors/*'], watchOptions, gulp.series('js'));
-    gulp.watch(['fonts/**/*', 'css/**/*.scss', 'css/vendor/*', '../dashboard/content/css/*'], watchOptions, gulp.series('css'));
+    gulp.watch(['src/js/partials/*', 'src/js/vendors/*'], watchOptions, gulp.series('js'));
+    gulp.watch(['src/fonts/**/*', 'src/css/**/*.scss', 'src/css/*.scss', 'src/css/vendor/*', '../dashboard/content/css/*.css'], watchOptions, gulp.series('css'));
 }));
