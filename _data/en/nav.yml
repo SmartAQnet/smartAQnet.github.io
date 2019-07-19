@@ -28,9 +28,8 @@ top:
         - name: International Workshop 2018
           link: /en/int-workshop-2018
           
-    # Currently not listed
-    #- name: Live Data
-    #  link: /en/dashboard
+    - name: Live Data
+      link: /en/dashboard
 
   special_page:
     - name: Search
