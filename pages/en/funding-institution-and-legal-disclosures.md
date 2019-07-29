@@ -51,7 +51,17 @@ of Industry 4.0, Energy, Smart Cities and Personalized Medicine. More
 information can be found
 under [http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/](http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/)
 
+### User Licence 
 
+Copyright 2018-2019 - The SmartAQnet Consortium
+
+All contents of the website and the data contained therein are protected by copyright. The copyright belongs to the consortium partners of the SmartAQnet project, unless explicitly stated otherwise.  Please contact us if you wish to use the content of this website.
+
+The complete data collection of the smartAQnet project and, unless expressly stated otherwise, the data and description texts contained therein are licensed under a Creative Commons Attribution 4.0 International License. They may be used in accordance with the license terms stated. Use an appropriate hyperlink to this Web site (https://smartaq.net) to reference it as a source.
+
+The data made available on this website was collected for research purposes as part of the SmartAQnet research project sponsored by the Federal Ministry of Transport and Digital Infrastructure (BMVI) (grant number: 19F2003). Please note that the data was automatically collected by various systems and for the most part not validated, in particular the disclaimer and limitation of liability related to the user license.
+
+In particular, we would like to expressly point out fundamental errors and inaccuracies in the data, since, for example, the sensors used were partly operated by laypersons, were deliberately subjected to outside specifications of the manufacturers or no calibration. Therefore, most of the contained data should not be regarded as "measurements" in the usual sense. Also when importing external measurements or metadata, we do not exclude errors and in case of doubt refer directly to the referenced source (which may be more suitable for further use). In particular, this data collection is not in itself suitable for monitoring or conclusively evaluating the quality of outdoor air at the sites mentioned.
 ### Legal Disclosures
 
 Publisher and responsible for the content: Aerosol Akademie e.V.

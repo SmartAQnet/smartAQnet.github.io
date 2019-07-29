@@ -56,6 +56,17 @@ Energie, Smart Cities und personalisierte Medizin. Mehr hierzu finden Sie auch
 unter [http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/](http://dev.sdil.de/de/projekte/analytics-fr-ein-smart-air-quality-network/)
 
 <br><br>
+### Nutzungsrechte
+
+Copyright 2018-2019 - Das SmartAQnet-Konsortium
+
+Alle Inhalte der Webseite und der darauf enthaltenen Daten sind urheberrechtlich geschützt. Das Copyright liegt bei den Konsortialpartnern des SmartAQnet-Projekts, sofern nicht ausdrücklich anders angegeben.  Bitte fragen Sie uns, falls Sie die Inhalte dieser Website nutzen möchten.
+
+Die komplette Datenerfassung des smartAQnet-Projekts und, sofern nicht ausdrücklich anders angegeben, die darin enthaltenen Daten und Beschreibungstexte sind unter einer Creative Commons Attribution 4.0 International License lizenziert. Sie können in Übereinstimmung mit den angegebenen Lizenzbedingungen verwendet werden. Verwenden Sie einen geeigneten Hyperlink zu dieser Website (https://smartaq.net), um sie als Quelle zu referenzieren.
+
+Die auf dieser Website zur Verfügung gestellten Daten wurden im Rahmen des vom Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) geförderten Forschungsprojekts SmartAQnet zu Forschungszwecken erhoben (Förderkennzeichen: 19F2003). Bitte beachten Sie, da die Daten von verschiedenen Systemen automatisch gesammelt und größtenteils nicht validiert wurden, insbesondere den Haftungsausschluss und die Haftungsbeschränkung im Zusammenhang mit der Benutzerlizenz.
+
+Insbesondere möchten wir ausdrücklich auf prinzipielle Fehler und Ungenauigkeiten in den Daten hinweisen, da z.B. die verwendeten Sensoren teilweise von Laien bedient wurden, bewusst außerhalb der Vorgaben der Hersteller oder keiner Kalibrierung unterzogen wurden. Daher sollten die meisten der enthaltenen Daten nicht als "Messungen" im üblichen Sinne betrachtet werden. Auch beim Import von externen Messungen oder Metadaten schließen wir Fehler nicht aus und verweisen im Zweifelsfall direkt auf die referenzierte Quelle (die für die Weiterverwendung geeigneter sein kann). Insbesondere ist diese Datenerhebung an sich nicht geeignet, die Qualität der Außenluft an den genannten Standorten zu überwachen oder abschließend zu bewerten.
 
 ### Impressum
 
