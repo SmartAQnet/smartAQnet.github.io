@@ -4,7 +4,7 @@ author: SmartAQnet
 title: Internationaler Workshop 04. - 05. Dezember 2018
 tags: [Workshop]
 ---
-(Update: die Resultate finden sie [hier](https://smartaq.net/PUBLIKATIONEN/INTERNATIONALER-WORKSHOP-2018/))  
+(Update: die Resultate finden Sie [hier](https://smartaq.net/PUBLIKATIONEN/INTERNATIONALER-WORKSHOP-2018/))  
 Der Workshop beginnt am 04. Dezember vormittags und endet am 05. Dezember am Nachmittag. Eine Agenda, die laufend aktualisiert wird, steht für Sie zum Herunterladen bereit.  
   
 Ziele des Workshop:
@@ -12,7 +12,7 @@ Ziele des Workshop:
   
 Erstes Ziel sollte sein, Informationen über Feinstaubmessmethoden und Luftverschmutzung / Pollen auszutauschen. Diesbezüglich bitten wir Sie, Ihre Arbeiten mündlich bzw. grafisch zu präsentieren.  
   
-Wenn Interesse an einer Präsentation beseht, senden Sie uns bitte vorab Ihre Vorschläge zu. Des Weiteren sind wir auf der Suche nach neuen Ansätzen zu diesem interessanten Thema.  
+Wenn Interesse an einer Präsentation besteht, senden Sie uns bitte vorab Ihre Vorschläge zu. Des Weiteren sind wir auf der Suche nach neuen Ansätzen zu diesem interessanten Thema.  
   
 Erwartete Ergebnisse:
 ----------------------

@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Fotogallerie
+title: Fotogalerie
 subtitle: Hier finden Sie ein paar Eindrücke unserer Projektarbeit
 gallery_path: "/assets/static/img/galleries/main-gallery"
 feature-img: "assets/static/img/galleries/main-gallery/20180126_185610.jpg"
