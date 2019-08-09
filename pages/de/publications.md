@@ -10,6 +10,7 @@ indexed: true
 
 Unserer monatlicher Newsletter zum Download:
 
+- [April 2019](/assets/static/downloads/Newsletter/de/16_Externer Newsletter April 19 dt.pdf)
 - [März 2019](/assets/static/downloads/Newsletter/de/15_Externer Newsletter März 19 dt.pdf)
 - [Februar 2019](/assets/static/downloads/Newsletter/de/14_Externer Newsletter Feb 19 dt.pdf)
 - [Januar 2019](/assets/static/downloads/Newsletter/de/13_Externer Newsletter Jan 19 dt_a.pdf)

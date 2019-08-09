@@ -22,6 +22,7 @@ indexed: true
 <div markdown="1">
 Please find enclosed our monthly newsletter:
 
+- [April 2019](/assets/static/downloads/Newsletter/en/16_External Newsletter April 19.pdf)
 - [March 2019](/assets/static/downloads/Newsletter/en/15_External Newsletter March 19.pdf)
 - [February 2019](/assets/static/downloads/Newsletter/en/14_External Newsletter Feb 19.pdf)
 - [January 2019](/assets/static/downloads/Newsletter/en/13_External Newsletter Jan 19_a.pdf)
