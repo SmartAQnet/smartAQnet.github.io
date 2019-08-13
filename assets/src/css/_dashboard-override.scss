@@ -16,3 +16,20 @@
 .st-table{
     font-size: 1rem;
 }
+
+.dashboard-menu{
+    display: flex;
+    flex-direction: row;
+    flex-basis: unset;
+    flex-shrink: unset;
+  }
+
+.nav-md .container.body .right_col {
+    flex-grow: unset;
+    height: 100%;
+    overflow-y: unset;
+}
+
+.main_container {
+    display: block;
+}
