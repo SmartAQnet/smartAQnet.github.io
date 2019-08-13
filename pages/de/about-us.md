@@ -6,7 +6,7 @@ center-feature-img: true
 indexed: true
 ---
 
-Im Folgenden stellen sich die Projektpartner des Verbundprojektes "_**smartAQnet** - Smart Air Quality Network - Analyse und Bewertung neuer Luftgüte-Messmethoden
+Im Folgenden stellen sich die Projektpartner des Verbundprojektes "_**SmartAQnet** - Smart Air Quality Network - Analyse und Bewertung neuer Luftgüte-Messmethoden
 und Wissenschaftskommunikation an Öffentlichkeit und spezielle Stakeholder_" vor
 (in alphabetischer Reihenfolge).
 

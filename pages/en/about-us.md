@@ -6,7 +6,7 @@ center-feature-img: true
 indexed: true
 ---
 
-The project partners participating in "_**smartAQnet** - Smart Air Quality Network - Analysis and Assessment of New Air Quality Measurement Methods and Science Communication to the Public and Special Stakeholders_" present themselves in the following paragraphs (in alphabetical order).
+The project partners participating in "_**SmartAQnet** - Smart Air Quality Network - Analysis and Assessment of New Air Quality Measurement Methods and Science Communication to the Public and Special Stakeholders_" present themselves in the following paragraphs (in alphabetical order).
 
 
 <br><br>
@@ -17,7 +17,7 @@ The **Aerosol Akademie** (short: AA) is a regional, national and international c
 <br><br>
 
 [![Stadt Augsburg logo](/assets/static/img/logos/Logo-Stadt_Augsburg-rotgruen-RGB.png)](http://www.augsburg.de/umwelt-soziales/umwelt/)
-The **Environmental Department of the city of Augsburg** (short: AUG) supports the project of the Parnterverbund as an unsubmitted project partner. The communication with interested Augsburg schools, which are already active in the field of environmental research and air monitoring, is made possible and facilitated by the Environmental Department. If necessary, the city of Augsburg can also be involved in the measurements of urban enterprises (for example, public transport, municipal utilities, etc.). For more information see  [http://www.augsburg.de/umwelt-soziales/umwelt/](http://www.augsburg.de/umwelt-soziales/umwelt/)
+The **Environmental Department of the City of Augsburg** (short: AUG) supports the project of the Parnterverbund as an unsubmitted project partner. The communication with interested Augsburg schools, which are already active in the field of environmental research and air monitoring, is made possible and facilitated by the Environmental Department. If necessary, the city of Augsburg can also be involved in the measurements of urban enterprises (for example, public transport, municipal utilities, etc.). For more information see  [http://www.augsburg.de/umwelt-soziales/umwelt/](http://www.augsburg.de/umwelt-soziales/umwelt/)
 . 
 <br><br>
 

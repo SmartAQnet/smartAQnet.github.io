@@ -23,11 +23,12 @@ permalink: /en/dashboard/
                   <a class="nav-link" ng-class="{active: $route.current.activetab == 'home'}" href="#/home"><i class="fa fa-home"></i> Home <span class="fa"></span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" ng-class="{active: $route.current.activetab == 'things'}" href="#/things?$expand=Locations"><i class="fa fa-cube"></i> Things <span class="fa"></span></a>
+                  <a class="nav-link" ng-class="{active: $route.current.activetab == 'things'}" href="#/things"><i class="fa fa-cube"></i> Things <span class="fa"></span></a>
+                  <!-- <a class="nav-link" ng-class="{active: $route.current.activetab == 'things'}" href="#/things?$expand=Locations"><i class="fa fa-cube"></i> Things <span class="fa"></span></a> -->
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                   <a class="nav-link" ng-class="{active: $route.current.activetab == 'sensors'}" href="#/sensors"><i class="fa fa-tachometer-alt"></i> Sensors <span class="fa"></span></a>
-              </li>
+              </li> -->
               <li class="nav-item">
                   <a class="nav-link" ng-class="{active: $route.current.activetab == 'properties'}" href="#/observedproperties"><i class="fa fa-list"></i> Observed Properties <span class="fa"></span></a>
               </li>
@@ -35,7 +36,6 @@ permalink: /en/dashboard/
             <div class="right_col" style="margin-left: 0 !important;" role="main">
               <div ng-view></div>
             </div>
-    
           </div>
         </div>
   </div>
@@ -85,8 +85,10 @@ permalink: /en/dashboard/
 <script src='{{ "/dashboard/content/js/controllers/observations-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/observed-properties-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/observed-property-controller.js" | relative_url }}'></script>
+<script src='{{ "/dashboard/content/js/controllers/sensor-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/sensors-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/thing-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/things-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/mqtt-controller.js" | relative_url }}'></script>
 <script src='{{ "/dashboard/content/js/controllers/map-controller.js" | relative_url }}'></script>
+<script src='{{ "/dashboard/content/js/controllers/create_new-controller.js" | relative_url }}'></script>
