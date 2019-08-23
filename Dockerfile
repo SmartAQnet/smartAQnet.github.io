@@ -20,7 +20,7 @@ RUN jekyll build -d ./build --verbose
 FROM nginx:alpine
 COPY dashboard/content /var/www/html
 COPY default.conf /etc/nginx/conf.d/default.conf
-ADD https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/options-ssl-nginx.conf /etc/nginx/options-ssl-nginx.conf 
-ADD https://raw.githubusercontent.com/certbot/certbot/master/certbot/ssl-dhparams.pem /etc/nginx/ssl-dhparams.pem
+ADD https://raw.githubusercontent.com/certbot/certbot/master/certbot-nginx/certbot_nginx/tls_configs/options-ssl-nginx.conf /etc/nginx/options-ssl-nginx.conf 
+ADD ssl-dhparams.pem /etc/nginx/ssl-dhparams.pem
 COPY --from=0 /app/build /var/www/html
 CMD ["nginx", "-g", "daemon off;"]
