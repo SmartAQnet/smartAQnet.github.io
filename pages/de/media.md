@@ -5,12 +5,12 @@ feature-img: "assets/static/img/stock/magazines-364514_1920.jpg"
 bootstrap: true
 indexed: true
 ---
+<div class="container">
 <div id="accordion">
     <div class="card">
         <div class="card-header" id="headingFour">
             <h4 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
-                    aria-expanded="false" aria-controls="collapseFour" style="width: 100%;">
+                <a class="btn btn-link collapsed container-fluid" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     <div class="row mb-0">
                         <div class="col-11">
                             Newsletter
@@ -26,8 +26,7 @@ indexed: true
     <div class="card">
         <div class="card-header" id="headingOne">
             <h4 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
-                    aria-expanded="false" aria-controls="collapseOne" style="width: 100%;">
+                <a class="btn btn-link collapsed container-fluid" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     <div class="row mb-0">
                         <div class="col-11">
                             Pressemitteilungen und Zeitungsartikel
@@ -193,6 +192,8 @@ Unserer monatlicher Newsletter zum Download:
         </div>
     </div>
 </div>
+</div>
+
 
 <style>
     .row {

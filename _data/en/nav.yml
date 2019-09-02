@@ -30,6 +30,9 @@ top:
 
         - name: International Workshop 2018
           link: /en/int-workshop-2018
+
+    - name: Participate!
+      link: /en/participate
           
     - name: Live Data
       link: /en/dashboard

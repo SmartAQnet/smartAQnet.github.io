@@ -5,11 +5,12 @@ feature-img: "assets/static/img/stock/magazines-364514_1920.jpg"
 bootstrap: true
 indexed: true
 ---
+<div class="container">
 <div id="accordion">
     <div class="card">
         <div class="card-header" id="headingTwo">
             <h4 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="width: 100%;">
+                <a class="btn btn-link collapsed container-fluid" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <div class="row mb-0">
                         <div class="col-11">
                             Scientific Publications 
@@ -21,8 +22,25 @@ indexed: true
                 </a>
             </h4>
         </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h4 class="mb-0">
+                    <a class="btn btn-link collapsed container-fluid" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <div class="row mb-0">
+                            <div class="col-11">
+                                Conference participations, presentations and poster contributions
+                            </div>
+                            <div class="col-1">
+                                <i class="fas fa-caret-down rotate-icon"></i>
+                            </div>
+                        </div>
+                    </a>
+                </h4>
+            </div>
+        </div>
+        <div class="card">
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
 <div markdown="1">
 Matthias Budde, Andrea Schankin, Julien Hoffmann, Marcel Danz, Till Riedel, Michael Beigl
 (2017)_ Participatory Sensing
@@ -107,23 +125,6 @@ Bruns, J.; Riesterer, J.; Wang, B.; Riedel, T.; Beigl, M.; _Automated Quality As
 In: **GI\_Forum**, 2018, Vol. 6, Issue 1, doi:10.1553/giscience2018\_01\_s65.
 </div>
             </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-header" id="headingThree">
-            <h4 class="mb-0">
-                <a class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
-                    aria-expanded="false" aria-controls="collapseThree" style="width: 100%;">
-                    <div class="row mb-0">
-                        <div class="col-11">
-                    Conference participations, presentations and poster contributions
-                  </div>
-                        <div class="col-1">
-                            <i class="fas fa-caret-down rotate-icon"></i>
-                        </div>
-                    </div>
-                </a>
-            </h4>
         </div>
         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
             <div class="card-body">
@@ -264,6 +265,7 @@ München, 04.-06. Dezember 2018, oral presentation.
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <style>
