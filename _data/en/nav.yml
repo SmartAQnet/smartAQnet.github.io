@@ -19,8 +19,11 @@ top:
 
     - name: Publications
       entries:
-        - name: Publications
+        - name: Results and Publications
           link: /en/publications
+        
+        - name: Media
+          link: /en/media
 
         - name: Photo Gallery
           link: /en/gallery
