@@ -10,3 +10,19 @@ entries:
         day: "13"
         month: "03"
         year: "2020"
+  - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
+    content: 'more information about <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
+    start:
+        day: "02"
+        month: "09"
+        year: "2019"
+    end:
+        day: "06"
+        month: "09"
+        year: "2019"
+  - name: "Participate in SmartAQnet – Workshop Augsburg"
+    content: 'more information <a href="http://www.teco.edu/research%20/mitmachen-im-smart-air-quality-network-workshop-augsburg/" target="_blank">here</a>'
+    start:
+        day: "14"
+        month: "05"
+        year: "2019"
