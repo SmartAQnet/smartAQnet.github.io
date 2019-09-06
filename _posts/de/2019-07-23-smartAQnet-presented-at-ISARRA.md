@@ -10,6 +10,7 @@ Die Uni Augsburg hat vom 15.07. bis 23.07.2019 an der [ISARRA](http://www.isarra
 - Redelstein J., E. Petersen, A. Philipp: Determination of the boundary layer height with unmanned aerial vehicles
 Andreas Philipp hielt einen Vortrag, die Folien dazu finden sich hier: [ISARRA Website](http://www.isarra.org/wp-content/uploads/2019/08/ISARRA_2019_Thur_Philipp.pdf)
 - Philipp A., C. Beck, L. Glawion, A. Groos, A. Langhein, E. Petersen, J. Redelstein, M. Roith, M.  Schörner, A. Straub: Boundary layer variability observed by unmanned aerial systems in Berlin and Stuttgart for model validation
+
 Weiterhin wurde an den Flugtagen teilgenommen:
 
 ![Drohne](/assets/static/img/project-images/Uni Aug_UNA_Vorbereitung.jpg)
