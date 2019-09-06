@@ -12,10 +12,10 @@ Andreas Philipp hielt einen Vortrag, die Folien dazu finden sich hier: [ISARRA W
 - Philipp A., C. Beck, L. Glawion, A. Groos, A. Langhein, E. Petersen, J. Redelstein, M. Roith, M.  Schörner, A. Straub: Boundary layer variability observed by unmanned aerial systems in Berlin and Stuttgart for model validation
 Weiterhin wurde an den Flugtagen teilgenommen:
 
-![Drohne](/assets/static/img/project-images/Uni Aug_UNA_Drohne.jpg)
+![Drohne](/assets/static/img/project-images/Uni Aug_UNA_Vorbereitung.jpg)
  
 Vorbereitung zum Flug
-![startklar](/assets/static/img/project-images/Uni Aug_UNA_Vorbereitung.jpg)
+![startklar](/assets/static/img/project-images/Uni Aug_UNA_Drohne.jpg)
  
 Die Drohnen sind startklar
 
