@@ -10,6 +10,12 @@ entries:
         day: "13"
         month: "03"
         year: "2020"
+  - name: "Mitmachen im Smart Air Quality Network – Workshop Augsburg"
+    content: 'mehr Informationen <a href="http://www.teco.edu/research%20/mitmachen-im-smart-air-quality-network-workshop-augsburg/" target="_blank">hier</a>'
+    start:
+        day: "14"
+        month: "05"
+        year: "2019" 
   - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
     content: 'mehr Infos zur <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
     start:
@@ -26,16 +32,12 @@ entries:
         day: "19"
         month: "07"
         year: "2019"
-  - name: "Mitmachen im Smart Air Quality Network – Workshop Augsburg"
-    content: 'mehr Informationen <a href="http://www.teco.edu/research%20/mitmachen-im-smart-air-quality-network-workshop-augsburg/" target="_blank">hier</a>'
-    start:
-        day: "14"
-        month: "05"
-        year: "2019"
-  - name: "Tag der offenen Tür im Umweltamt Augsburg"
+   - name: "Tag der offenen Tür im Umweltamt Augsburg"
     content: 'Das Umweltamt lädt 
-    <a href="https://augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">ein </a>'.
+    <a href="https://augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">ein</a>'.
     start:
         day: "20"
         month: "09"
         year: "2019"
+        
+
