@@ -33,8 +33,7 @@ entries:
         month: "07"
         year: "2019"
    - name: "Tag der offenen Tür im Umweltamt Augsburg"
-    content: 'Das Umweltamt lädt 
-    <a href="https://augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">ein</a>'.
+    content: 'Das Umweltamt lädt <a href="https://augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">ein</a>'
     start:
         day: "20"
         month: "09"
