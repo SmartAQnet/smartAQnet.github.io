@@ -32,13 +32,8 @@ entries:
         day: "19"
         month: "07"
         year: "2019"
-<<<<<<< HEAD
   - name: "Mitmachen im Smart Air Quality Network – Workshop Augsburg"
     content: 'mehr Informationen <a href="http://www.teco.edu/research%20/mitmachen-im-smart-air-quality-network-workshop-augsburg/" target="_blank">hier</a>'
-=======
-  - name: "Tag der offenen Tür im Umweltamt Augsburg"
-    content: 'Das Umweltamt lädt <a href="https://augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">ein</a>'
->>>>>>> 469af559f34c4066a7e8f6eb62d442100ca17abf
     start:
         day: "14"
         month: "05"
