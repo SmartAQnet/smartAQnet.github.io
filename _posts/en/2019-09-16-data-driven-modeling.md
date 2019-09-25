@@ -14,4 +14,4 @@ In particular, the event aimed to
 - establish a forum for exchange of ideas between the experts using these methods in different applications
 - initiate collaboration and strengthen interdisciplinary research.
 
-Dr. Johannes Riesterer gave an oral presentation on Gaussian process regression for heterogeneous measuring networks of environmental data.
+Dr. Johannes Riesterer gave a presentation on Gaussian process regression for heterogeneous measuring networks of environmental data.
