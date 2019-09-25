@@ -5,7 +5,7 @@ title: SmartAQnet at International Workshop on Data-driven Modeling and Optimiza
 tags: []
 ---
 -----------------------------------------------------------------------------
-SmartAQnet was presented at the [International Workshop on Data-driven Modeling and Optimization in Fluid Mechanics](https://www.istm.kit.edu/dmofm.php) 
+Most recent SmartAQnet results were presented at the [International Workshop on Data-driven Modeling and Optimization in Fluid Mechanics](https://www.istm.kit.edu/dmofm.php) 
 
 The event focused on the application of artificial intelligence, machine learning, deep learning, evolutional algorithms and adjoint-based optimization to fluid dynamics-related problems with special focus on turbulent flows and flow control.
 
