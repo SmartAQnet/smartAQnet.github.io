@@ -251,8 +251,7 @@ Cyrys, J.: _Temporal and geographical contrasts in pollutant exposures - implica
 Dezember 2018, oral presentation.
 
 Uhrner, U.; Reifeltshammer, R.; Sturm, P.; Werhahn, J.; Forkel, R.; Emeis S.; Schäfer, K.; Petersen, E.; Philipp, A.;
-Kunde, R.: _First SmartAQnet results from accompanying air quality modelling_. I**nternational workshop on assessing
-fine-granular modelling and measssurement matter,** München, 04.-05. Dezember 2018, oral presentation.
+Kunde, R.: _First SmartAQnet results from accompanying air quality modelling_. **International workshop on assessing fine-granular modelling and measssurement matter**, München, 04.-05. Dezember 2018, oral presentation.
 
 Petersen, E.; Philipp, A., Redelstein, J.: _Applications of smart air quality networks - a particle matter exposure
 driven traffic routing_. **International workshop on assessing fine-granular modelling and measurement of particulate
@@ -261,6 +260,15 @@ matter**, München, 04.-06. Dezember 2018, oral presentation.
 Redelstein, J.; Petersen, E.; Philipp, A.: _Development of an air quality related predictive live platform based on near
 real-time data_. **International workshop on assessing fine-granular modelling and measurement of particulate matter**,
 München, 04.-06. Dezember 2018, oral presentation.
+
+Redelstein, J., Petersen, E., Philipp, A.: Bestimmung der Grenzschichthöhe mit Unbemannten Luftfahrtsystemen und Ceilometer. **Meteorologentagung DACH**, Garmisch-Partenkirchen, Deutschland, 18.–22. März 2019, poster presentation.
+
+Riesterer, J., Lerch, S., Budde, M., Bruns, J., Arnaudov, S., Riedel, T., Beigl, M.: Stochastische Regressionsmodelle zur Verbesserung der Datenqualität, Kalibrierung und Interpolation von Umwelt-und Luftdaten in verteilten Messnetzen aus Low-Cost Sensoren. Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Stutensee-Blankenloch, 27. – 29.03.2019, oral presentation.
+
+Budde, M., Schwarz, A.D., Müller, T., Laquai, B., Streibl, N., Schindler, G., Köpke, M., Riedel, T., Dittler, A., Beigl, M.: Potenzial und Grenzen des kostengünstigen SDS011 Partikelsensors bei der Überwachung urbaner Luftqualität. In: Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Stutensee-Blankenloch, 27. – 29.03.2019, oral presentation.
+
+Ziegler, V.: Smart Air Quality Net - Messnetz 2.0. **mFund 2019 -Fachaustausch Luftschadstoffe**, Bergisch Gladbach, 17. Juni 2019, oral presentation
+
 </div>
             </div>
         </div>

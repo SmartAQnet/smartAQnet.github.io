@@ -261,6 +261,14 @@ matter**, München, 04.-06. Dezember 2018, oral presentation.
 Redelstein, J.; Petersen, E.; Philipp, A.: _Development of an air quality related predictive live platform based on near
 real-time data_. **International workshop on assessing fine-granular modelling and measurement of particulate matter**,
 München, 04.-06. Dezember 2018, oral presentation.
+
+Redelstein, J., Petersen, E., Philipp, A.: Bestimmung der Grenzschichthöhe mit Unbemannten Luftfahrtsystemen und Ceilometer. **Meteorologentagung DACH**, Garmisch-Partenkirchen, Germany, 18.–22. March 2019, poster presentation.
+
+Riesterer, J., Lerch, S., Budde, M., Bruns, J., Arnaudov, S., Riedel, T., Beigl, M.: Stochastische Regressionsmodelle zur Verbesserung der Datenqualität, Kalibrierung und Interpolation von Umwelt-und Luftdaten in verteilten Messnetzen aus Low-Cost Sensoren. Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Stutensee-Blankenloch, 27. – 29. March 2019, oral presentation.
+
+Budde, M., Schwarz, A.D., Müller, T., Laquai, B., Streibl, N., Schindler, G., Köpke, M., Riedel, T., Dittler, A., Beigl, M.: Potenzial und Grenzen des kostengünstigen SDS011 Partikelsensors bei der Überwachung urbaner Luftqualität. In: Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Stutensee-Blankenloch, 27. – 29. March 2019, oral presentation.
+
+Ziegler, V.: Smart Air Quality Net - Messnetz 2.0. **mFund 2019 -Fachaustausch Luftschadstoffe**, Bergisch Gladbach, 17. June 2019, oral presentation.
 </div>
             </div>
         </div>
