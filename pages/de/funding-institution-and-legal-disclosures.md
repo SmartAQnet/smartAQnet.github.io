@@ -70,12 +70,12 @@ Insbesondere möchten wir ausdrücklich auf prinzipielle Fehler und Ungenauigkei
 
 ### Impressum
 
-Herausgeber und verantwortlich für den Inhalt: Aerosol Akademie e.V.  
-Vereinssitz: Aerosol Akademie e.V., Neu-Pouch 2, 06774 Pouch, Deutschland  
-Geschäftsstelle / Verwaltungssitz: Aerosol Akademie, Dorfstraße 9, 83404 Ainring, Deutschland  
-Kontakt: Telefon: 08654 / 779669-0, E-Mail: info@aerosol-akademie.de   
-Vertreten durch: Dr. Ing. Hans Grimm (Vorsitzender), Prof. Dr. Gerhard Kasper (Stv. Vorsitzender)   
-Eingetragen im Vereinsregister: Vereinsregister-Nr. 1403, Gericht: Amtsgericht Stendal
+Herausgeber und verantwortlich für den Inhalt: TECO/ KIT, Lehrstuhl für Pervasive Computing Systems,
+Vincenz-Prießnitz-Str.1, 76131 Karlsruhe, Deutschland
+Telefon: +49 721 608-41701
+Fax: +49 721 608-41702
+Vertreten durch: Katja Kornetzky
+E-Mail: SAQN-web@teco.edu
 
   
 **Impressum**

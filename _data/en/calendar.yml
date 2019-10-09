@@ -16,7 +16,7 @@ entries:
         day: "29"
         month: "10"
         year: "2019"
- - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
+  - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
     content: 'more information about <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
     start:
         day: "02"
