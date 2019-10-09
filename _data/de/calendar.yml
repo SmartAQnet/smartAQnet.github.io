@@ -10,13 +10,19 @@ entries:
         day: "13"
         month: "03"
         year: "2020"
+  - name: "Clean Air Experts Day"
+    content: 'Lösungsansätze <a href="https://www.clean-air-experts.de/" target="_blank">für saubere Luft in Augsburg</a>'
+    start:
+        day: "29"
+        month: "10"
+        year: "2019"
   - name: "Tag der offenen Tür im Umweltamt Augsburg"
     content: 'Sie sind herzlich <a href="https://www.augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">eingeladen</a>'
     start:
         day: "20"
         month: "09"
         year: "2019"
-  - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
+   - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
     content: 'mehr Infos zur <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
     start:
         day: "02"
@@ -26,7 +32,7 @@ entries:
         day: "06"
         month: "09"
         year: "2019"
-  - name: "SmartAQnet beim Tag der Informatik am KIT"
+   - name: "SmartAQnet beim Tag der Informatik am KIT"
     content: 'mehr Informationen <a href="https://www.informatik.kit.edu/7054_10335.php/" target="_blank">hier</a>'
     start:
         day: "19"

@@ -10,7 +10,13 @@ entries:
         day: "13"
         month: "03"
         year: "2020"
-  - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
+  - name: "Clean Air Experts Day"
+    content: 'Solutions for <a href="https://www.clean-air-experts.de/" target="_blank">clean air in Augsburg</a>'
+    start:
+        day: "29"
+        month: "10"
+        year: "2019"
+ - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
     content: 'more information about <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
     start:
         day: "02"
