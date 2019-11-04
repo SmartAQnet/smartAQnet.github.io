@@ -64,12 +64,12 @@ The data made available on this website was collected for research purposes as p
 In particular, we would like to expressly point out fundamental errors and inaccuracies in the data, since, for example, the sensors used were partly operated by laypersons, were deliberately subjected to outside specifications of the manufacturers or no calibration. Therefore, most of the contained data should not be regarded as "measurements" in the usual sense. Also when importing external measurements or metadata, we do not exclude errors and in case of doubt refer directly to the referenced source (which may be more suitable for further use). In particular, this data collection is not in itself suitable for monitoring or conclusively evaluating the quality of outdoor air at the sites mentioned.
 ### Legal Disclosures
 
-Publisher and responsible for the content: Aerosol Akademie e.V.
-Club's seat: Aerosol Akademie e.V., Neu-Pouch 2, 06774 Pouch, Germany
-Office: Aerosol Akademie e.V., Dorfstraße 9, 83404 Ainring, Germany
-Contact data: Phone number 0049 8654 7796690, mail: info@aerosol-akademie.com
-Represented by Dr. Ing. Hans Grimm (Chairman), Prof. Dr. Gerhard Kasper (Deputy Chairman)
-Registered in the Association register, no.: 1403; District Court of Stendal, Germany
+Publisher and responsible for the content: TECO/ KIT, chair of Pervasive Computing Systems,
+Vincenz-Prießnitz-Str.1, 76131 Karlsruhe, Germany
+Phone: +49 721 608-41701
+Fax: +49 721 608-41702
+Represented by: Katja Kornetzky
+E-Mail: SAQN-web@teco.edu
   
 **Disclaimer**
 
