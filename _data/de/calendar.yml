@@ -1,5 +1,15 @@
 headline: Veranstaltungen und Termine
 entries:
+ - name: "SmartAQnet-Abschlussveranstaltung"
+    content: 'im Evangelischen Forum Annahof, Augsburg, Germany
+    start:
+        day: "03"
+        month: "06"
+        year: "2020"
+    end:
+        day: "04"
+        month: "06"
+        year: "2020"
   - name: "Smart Air Quality Conference in Thessaloniki"
     content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a>'
     start:
