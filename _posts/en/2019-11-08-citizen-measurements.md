@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Bürgermessung: Comparison of Low Cost Sensors with Official Measurement Station
+title: Citizen Science, Comparison of Low Cost Sensors with Official Measurement Station
 tags: [particulate matter, Augsburg]
 ---
 -----------------------------------------------------------------------------

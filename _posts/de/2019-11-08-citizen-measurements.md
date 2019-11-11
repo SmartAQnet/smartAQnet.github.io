@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Bürgermessung: Vergleich Low Cost Sensoren mit offizieller Messstation
+title: Citizen Science, Vergleich Low Cost Sensoren mit offizieller Messstation
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------
