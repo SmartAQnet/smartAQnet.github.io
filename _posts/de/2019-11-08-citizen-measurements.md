@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Bürger vergleicht Low Cost Sensoren mit offizieller Messstation
+title: Bürger untersucht Daten aus offizieller Messstation
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------

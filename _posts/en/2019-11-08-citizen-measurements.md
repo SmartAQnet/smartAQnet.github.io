@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Citizen compares Low Cost Sensors with Official Measurement Station
+title: Citizen compares data from Official Measurement Station
 tags: [particulate matter, Augsburg]
 ---
 -----------------------------------------------------------------------------
