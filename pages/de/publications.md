@@ -43,44 +43,36 @@ indexed: true
                 <div class="card-body">
 <div markdown="1">
 Matthias Budde, Andrea Schankin, Julien Hoffmann, Marcel Danz, Till Riedel, Michael Beigl
-(2017)_ Participatory Sensing
-or Participatory Nonsense? – Mitigating the Effect of Human Error on Data Quality in Citizen
-Science._**Tagungsband der
-ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)** 1:3, doi: 10.1145/3131900
+(2017)_ Participatory Sensing or Participatory Nonsense? – Mitigating the Effect of Human Error on Data Quality in Citizen
+Science._**Tagungsband der ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)**1:3, doi: 10.1145/3131900
 
 Budde, M., Riedel, T., Beigl, M., Schäfer, K., Emeis, S., Cyrys, J., Schnelle-Kreis, J., Philipp,
 A., Ziegler, V.,
-Grimm, H., Gratza, T.: _SmartAQnet – Remote and In-Situ Sensing of Urban Air Quality_, In: **Remote
-Sensing of Clouds
-and the Atmosphere XXII**, edited by Adolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer, Richard H.
-Picard, Konradin
-Weber, Proceedings of SPIE, SPIE, Bellingham, WA, USA, Vol. 10424, 104240C-1 – 104240C-8 (2017);
+Grimm, H., Gratza, T.: _SmartAQnet – Remote and In-Situ Sensing of Urban Air Quality_, 
+In: **Remote Sensing of Clouds and the Atmosphere XXII**, edited by Adolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer, Richard H.
+Picard, Konradin Weber, Proceedings of SPIE, SPIE, Bellingham, WA, USA, Vol. 10424, 104240C-1 – 104240C-8 (2017);
 doi: 10.1117/12.2282698
 
 Philipp A., E. Petersen, A. Groos, P. Ferenci, S. Engerer, B. Fiedler, J. Jacobeit (2017):
-_Umweltmonitoring mit
-unbemannten Luftfahrtsystemen_. **Jahresbericht des  Wissenschaftszentrum Umwelt der Universität
-Augsburg  2016**
+_Umweltmonitoring mit unbemannten Luftfahrtsystemen_. **Jahresbericht des  Wissenschaftszentrum Umwelt der Universität Augsburg  2016**
 (2017).
 
 Philipp, A., E. Petersen, Jacobeit J.:  _Sondierung meteorologischer Parameter mit unbemannten
 Luftfahrtsystemen_.
-Umweltforschungsstation Schneefernerhaus**, Wissenschaftliche Ergebnisse 2015/2016** (2017).
+Umweltforschungsstation Schneefernerhaus**Wissenschaftliche Ergebnisse 2015/2016** (2017).
 
 Budde, M., Schäfer, K., Cyrys, J., Emeis, S., Gratza, T., Grimm, H., Hank, M, Hinterreiter, S.,
 Petersen, E., Philipp,
 A., Redelstein, J., Riedel, T., Riesterer, J., Schnelle-Kreis, J., Young, D., Ziegler, V., Beigl,
 M.: _SmartAQnet –
 raum/zeitlich hochaufgelöste Erfassung der Luftqualität mit neuen Datenprodukten_.
-In: **Umwelteinflüsse erfassen,
-simulieren und bewerten, 47. Jahrestagung der GUS 2018**, Herausgeber Karl-Friedrich Ziegahn,
+In: **Umwelteinflüsse erfassen, simulieren und bewerten, 47. Jahrestagung der GUS 2018**, Herausgeber Karl-Friedrich Ziegahn,
 Gesellschaft für
 Umweltsimulationen e.V., Pfinztal, Germany, 241-256; ISBN 978-9818507-2-7
 
 Moussiopoulos, N., Chourdakis, E., Tsegas, G., Schäfer, K.: _A method for the efficient assessment
 of air quality in
-urban areas_. In: **Umwelteinflüsse erfassen, simulieren und bewerten, 47. Jahrestagung der GUS
-2018**, Herausgeber
+urban areas_. In: **Umwelteinflüsse erfassen, simulieren und bewerten, 47. Jahrestagung der GUS 2018**, Herausgeber
 Karl-Friedrich Ziegahn, Gesellschaft für Umweltsimulationen e.V., Pfinztal, Germany, 257-268; ISBN
 978-9818507-2-7.
 
@@ -96,33 +88,39 @@ Hinterreiter, S.; Budde M.; Schäfer, K.; Riesterer, J.; Riedel, T.; Köpke, M.;
 Gratza, T.; Hank,
 M.; Philipp, A.; Petersen, E.; Redelstein, J.; Schnelle-Kreis, J.; Young, D.; Kowalski, M.; Ziegler,
 V.; Beigl, M.
-(2018) _SmartAQnet - neuer smarter Weg zur räumlichen_ _Erfassung  von Feinstaub_ in **AGIT -
-Journal für Angewandte
-Geoinformatik,** Wichmann Verlag, VDE VERLAG GMBH Berlin Offenbach 4-2018, 394-403 (2018);  ISBN
-978-3-87907-647-5, ISSN
-2364-9283, eISSN 2509-713X, doi:10.14627/537647050.
+(2018) _SmartAQnet - neuer smarter Weg zur räumlichen Erfassung von Feinstaub_ in **AGIT - Journal für Angewandte Geoinformatik,** 
+Wichmann Verlag, VDE VERLAG GMBH Berlin Offenbach 4-2018, 394-403 (2018);  ISBN
+978-3-87907-647-5, ISSN 2364-9283, eISSN 2509-713X, doi:10.14627/537647050.
 
 Redelstein, J.; Budde, M.; Cyrys, J.; Emeis, S.; Gratza, T.; Grimm, H.; Hank, M.; Hinterreiter, S.;
-Münkel, C.; Pesch,
-M.; Petersen, E.; Philipp, A.; Riedel, T.; Riesterer, J.; Schnelle-Kreis, J.; Uhrner, U.; Werhahn,
+Münkel, C.; Pesch, M.; Petersen, E.; Philipp, A.; Riedel, T.; Riesterer, J.; Schnelle-Kreis, J.; Uhrner, U.; Werhahn,
 J.; Ziegler, V.;
 Beigl, M.: _Smart Air Quality network for spatial high-resolution monitoring in urban area_. In:
-**Remote Sensing of
-Clouds and the Atmosphere XXIII**, edited byAdolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer,
-Richard H. Picard,
-Konradin Weber, Proceedings of SPIE, SPIE, Bellingham, WA, USA,Vol. 10786, 107860B-1  -  107860B
-(2018); doi:
-10.1117/12.2325756.
+**Remote Sensing of Clouds and the Atmosphere XXIII**, edited byAdolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer,
+Richard H. Picard, Konradin Weber, Proceedings of SPIE, SPIE, Bellingham, WA, USA,Vol. 10786, 107860B-1  -  107860B
+(2018); doi: 10.1117/12.2325756.
 
 Budde, M.; Riedel, T. : _Challenges in Capturing and Analyzing High Resolution Urban Air Quality
 Data._ In:
-**Proceedings of the 2018 ACM International Joint Conference and 2018 International Joint Conference
-on Pervasive and
-Ubiquitous Computing (Ubicomp'18),** doi: 10.1145/3267305.3274762.
+**Proceedings of the 2018 ACM International Joint Conference and 2018 International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp'18),** doi: 10.1145/3267305.3274762.
 
 Bruns, J.; Riesterer, J.; Wang, B.; Riedel, T.; Beigl, M.; _Automated Quality Assessment of
 (Citizen) Weather Stations_.
 In: **GI\_Forum**, 2018, Vol. 6, Issue 1, doi:10.1553/giscience2018\_01\_s65.
+
+Budde, M., Riedel, T., Schäfer, K. (editors): Mid-term and 1st International Networking Workshop 
+of the SmartAQnet Project: December 4th and 5th 2018, Munich. 
+In: **Proceedingsband 1000092379, KIT Scientific Working Papers**, KIT, Karlsruhe, 115, 39 pp (2019); ISSN: 2194-1629, doi:10.5445/IR/1000092379.
+ 
+Budde, M., Leiner, S., Köpke, M., Riesterer, J., Riedel, T., Beigl, M.: FeinPhone: 
+Low-cost Smartphone Camera-based 2D Particulate Matter Sensor, **Sensors 19(3)**, 749 - 767, pdf, doi:10.3390/s19030749.
+ 
+Budde, M., Schwarz, A.D., Müller, T., Laquai, B., Streibl, N., Schindler, G., Köpke, M., Riedel, T., Dittler, A., Beigl, M.: 
+Potenzial und Grenzen des kostengünstigen SDS011 Partikelsensors bei der Überwachung urbaner Luftqualität. In: Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Herausgeber Karl-Friedrich Ziegahn, Gesellschaft für Umweltsimulationen e.V., Pfinztal, Germany, 271-280 (2019).
+ 
+Redelstein, J., Budde, M., Cyrys, J., Emeis, S., Gratza, T., Grimm, H., Hank, Holst, C., M., Münkel, C., Pesch, M., Petersen, E., Philipp, A., Riedel, T., Riesterer, J., Schäfer, K., Schnelle-Kreis, J., Uhrner, U., Werhahn, J., Ziegler, V., Beigl, M.: 
+Assessment of three-dimensional, fine -granular measurement of particulate matter by a smart air quality network in urban area. In: Remote Sensing of Clouds and the Atmosphere XXIV, edited by Adolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer, Richard H. Picard, Konradin Weber, Upendra N. Singh, Proceedings of SPIE, **SPIE**, Bellingham, WA, USA, Vol. 11152, 111520N-1 – 111520N-8 (2019); doi: 10.1117/12.2533096.
+
 </div>
             </div>
         </div>
