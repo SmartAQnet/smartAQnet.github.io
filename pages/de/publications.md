@@ -266,6 +266,9 @@ Riesterer, J., Lerch, S., Budde, M., Bruns, J., Arnaudov, S., Riedel, T., Beigl,
 Budde, M., Schwarz, A.D., Müller, T., Laquai, B., Streibl, N., Schindler, G., Köpke, M., Riedel, T., Dittler, A., Beigl, M.: Potenzial und Grenzen des kostengünstigen SDS011 Partikelsensors bei der Überwachung urbaner Luftqualität. In: Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Stutensee-Blankenloch, 27. – 29.03.2019, oral presentation.
 
 Ziegler, V.: Smart Air Quality Net - Messnetz 2.0. **mFund 2019 -Fachaustausch Luftschadstoffe**, Bergisch Gladbach, 17. Juni 2019, oral presentation.
+ 
+Redelstein, J., Petersen, E., Philipp, A., Schäfer, K.: Sondierung der Grenzschicht mit Unbemannten Luftfahrtsystemen, Ceilometer und SODAR RASS mit Fokus auf die Feinstaubbelastung. **38. Jahrestagung des Arbeitskreises Klima der Deutschen Gesellschaft für Geographie**, 25. - 27.10.2019 in Jesteburg bei Hamburg; Poster.
+
 </div>
             </div>
         </div>
