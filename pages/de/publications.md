@@ -217,9 +217,7 @@ of Clouds and the Atmosphere**, SPIE Europe, Berlin, Germany, 10 - 13 September 
 Emeis, S.; Young, D.; Werhahn, J.; Schäfer, K.; Uhrner, U.; Philipp A.; Riedel, T.; Budde, M.; Beigl, M.: _Innovative
 Datenerfassung für urbane Luftqualität_. **METTOOLS X,** Braunschweig, 25-27. September 2018; oral presentation.
 
-Budde, M.; Riedel, T.: _Challenges in Capturing and Analyzing High Resolution Urban Air Quality Data_. **2018 ACM
-International Joint Conference and 2018 International Joint Conference on Pervasive and Ubiquitous Computing
-(Ubicomp'18**), Singapore, Singapore, October 08-12, 2018; oral presentation.
+Budde, M.; Riedel, T.: _Challenges in Capturing and Analyzing High Resolution Urban Air Quality Data_. **2018 ACM International Joint Conference and 2018 International Joint Conference on Pervasive and Ubiquitous Computing (Ubicomp'18**), Singapore, Singapore, October 08-12, 2018; oral presentation.
 
 Petersen, E.; Philipp, A.; Redelstein, J.; _Räumliche Datenauswertung der ersten SmartAQnet Messkampagne_ im September
 1\. **Jahrestagung AK-Klima** der Deutschen Geographischen Gesellschaft, Schloss Schney, 26-28 Oktober 2018, poster
@@ -230,11 +228,9 @@ Variabilität_. **Jahrestagung AK-Klima der Deutschen Geographischen Gesellschaf
 2018; oral presentation.
 
 Bendl, J.; Khedr, M.; Liu, X.; Schnelle-Kreis, J.: _Survey of the small-scale variability of aerosols and validation of
-low-cost sensors by mobile measurements._ **International workshop on assessing fine-granular modelling and measurement
-of particulate matter**, München, 04.-05. Dezember 2018, oral presentation.
+low-cost sensors by mobile measurements._ **International workshop on assessing fine-granular modelling and measurement of particulate matter**, München, 04.-05. Dezember 2018, oral presentation.
 
-Budde, M.: _Low-Cost Sensing and Data Management in SmartAQnet_. **International workshop on assessing fine-granular
-modelling and measurement of particulate matter**, München, 04. - 05. Dezember 2018, oral presentation.
+Budde, M.: _Low-Cost Sensing and Data Management in SmartAQnet_. **International workshop on assessing fine-granular modelling and measurement of particulate matter**, München, 04. - 05. Dezember 2018, oral presentation.
 
 Pesch, M.; _Requirements for a Smart Indicative Ambient Particulate Monitor (SIAPM)_. **International workshop of
 assessing fine-granular modelling and measurement of particulate matter**, München, 04.-05. Dezember 2018, oral
