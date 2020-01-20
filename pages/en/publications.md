@@ -123,6 +123,20 @@ Ubiquitous Computing (Ubicomp'18),** doi: 10.1145/3267305.3274762.
 Bruns, J.; Riesterer, J.; Wang, B.; Riedel, T.; Beigl, M.; _Automated Quality Assessment of
 (Citizen) Weather Stations_.
 In: **GI\_Forum**, 2018, Vol. 6, Issue 1, doi:10.1553/giscience2018\_01\_s65.
+ 
+udde, M., Riedel, T., Schäfer, K. (editors): Mid-term and 1st International Networking Workshop 
+of the SmartAQnet Project: December 4th and 5th 2018, Munich. 
+In: **Proceedingsband 1000092379, KIT Scientific Working Papers**, KIT, Karlsruhe, 115, 39 pp (2019); ISSN: 2194-1629, doi:10.5445/IR/1000092379.
+ 
+Budde, M., Leiner, S., Köpke, M., Riesterer, J., Riedel, T., Beigl, M.: FeinPhone: 
+Low-cost Smartphone Camera-based 2D Particulate Matter Sensor, **Sensors 19(3)**, 749 - 767, pdf, doi:10.3390/s19030749.
+ 
+Budde, M., Schwarz, A.D., Müller, T., Laquai, B., Streibl, N., Schindler, G., Köpke, M., Riedel, T., Dittler, A., Beigl, M.: 
+Potenzial und Grenzen des kostengünstigen SDS011 Partikelsensors bei der Überwachung urbaner Luftqualität. In: Umwelteinflüsse erfassen, simulieren und bewerten, **48. Jahrestagung der GUS 2019**, Herausgeber Karl-Friedrich Ziegahn, Gesellschaft für Umweltsimulationen e.V., Pfinztal, Germany, 271-280 (2019).
+ 
+Redelstein, J., Budde, M., Cyrys, J., Emeis, S., Gratza, T., Grimm, H., Hank, Holst, C., M., Münkel, C., Pesch, M., Petersen, E., Philipp, A., Riedel, T., Riesterer, J., Schäfer, K., Schnelle-Kreis, J., Uhrner, U., Werhahn, J., Ziegler, V., Beigl, M.: 
+Assessment of three-dimensional, fine -granular measurement of particulate matter by a smart air quality network in urban area. In: Remote Sensing of Clouds and the Atmosphere XXIV, edited by Adolfo Comerón, Evgueni I. Kassianov, Klaus Schäfer, Richard H. Picard, Konradin Weber, Upendra N. Singh, Proceedings of SPIE, **SPIE**, Bellingham, WA, USA, Vol. 11152, 111520N-1 – 111520N-8 (2019); doi: 10.1117/12.2533096.
+
 </div>
             </div>
         </div>
@@ -213,8 +227,7 @@ USA, September 2-7, 2018; oral presentation._
 
  Redelstein, J.; Budde, M.; Cyrys, M.; Cyrys, J.; Emeis, S.; Gratza, T.; Grimm, H.; Hank, M.; Hinterreiter, S.; Münkel,
 C.; Pesch, M.; Petersen, E.; Philipp, A.; Riedel, T.; Riesterer, J.; Schnelle-Kreis, J.; Uhrner, U.; Werhahn, J.;
-Ziegler, V.; Beigl, M.: Smart Air Quality network for spatial high-resolution monitoring in urban area. **Remote Sensing
-of Clouds and the Atmosphere**, SPIE Europe, Berlin, Germany, 10 - 13 September 2018; oral presentation.
+Ziegler, V.; Beigl, M.: Smart Air Quality network for spatial high-resolution monitoring in urban area. **Remote Sensing of Clouds and the Atmosphere**, SPIE Europe, Berlin, Germany, 10 - 13 September 2018; oral presentation.
 
 Emeis, S.; Young, D.; Werhahn, J.; Schäfer, K.; Uhrner, U.; Philipp A.; Riedel, T.; Budde, M.; Beigl, M.: _Innovative
 Datenerfassung für urbane Luftqualität_. **METTOOLS X,** Braunschweig, 25-27. September 2018; oral presentation.
