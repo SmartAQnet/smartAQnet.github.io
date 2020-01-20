@@ -1,7 +1,7 @@
 headline: Veranstaltungen und Termine
 entries:
   - name: "SmartAQnet-Abschlussveranstaltung"
-    content: 'im Evangelischen Forum [Annahof](https://www.annahof-evangelisch.de/tagen-im-annahof), Augsburg, Deutschland'
+    content: 'im Evangelischen <a href="https://www.annahof-evangelisch.de/tagen-im-annahof" target="_blank">Forum Annahof, Augsburg, Deutschland</a>'
     start:
         day: "03"
         month: "06"

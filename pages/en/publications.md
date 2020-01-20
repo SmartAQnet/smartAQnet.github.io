@@ -124,7 +124,7 @@ Bruns, J.; Riesterer, J.; Wang, B.; Riedel, T.; Beigl, M.; _Automated Quality As
 (Citizen) Weather Stations_.
 In: **GI\_Forum**, 2018, Vol. 6, Issue 1, doi:10.1553/giscience2018\_01\_s65.
  
-udde, M., Riedel, T., Schäfer, K. (editors): Mid-term and 1st International Networking Workshop 
+Budde, M., Riedel, T., Schäfer, K. (editors): Mid-term and 1st International Networking Workshop 
 of the SmartAQnet Project: December 4th and 5th 2018, Munich. 
 In: **Proceedingsband 1000092379, KIT Scientific Working Papers**, KIT, Karlsruhe, 115, 39 pp (2019); ISSN: 2194-1629, doi:10.5445/IR/1000092379.
  
