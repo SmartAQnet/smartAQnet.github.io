@@ -69,6 +69,8 @@ Die auf dieser Website zur Verfügung gestellten Daten wurden im Rahmen des vom 
 
 Insbesondere möchten wir ausdrücklich auf prinzipielle Fehler und Ungenauigkeiten in den Daten hinweisen, da z.B. die verwendeten Sensoren teilweise von Laien bedient wurden, bewusst außerhalb der Vorgaben der Hersteller oder keiner Kalibrierung unterzogen wurden. Daher sollten die meisten der enthaltenen Daten nicht als "Messungen" im üblichen Sinne betrachtet werden. Auch beim Import von externen Messungen oder Metadaten schließen wir Fehler nicht aus und verweisen im Zweifelsfall direkt auf die referenzierte Quelle (die für die Weiterverwendung geeigneter sein kann). Insbesondere ist diese Datenerhebung an sich nicht geeignet, die Qualität der Außenluft an den genannten Standorten zu überwachen oder abschließend zu bewerten.
 
+<br><br>
+
 ### Impressum
 
 Herausgeber und verantwortlich für den Inhalt: TECO/ KIT, Lehrstuhl für Pervasive Computing Systems,
@@ -85,8 +87,9 @@ E-Mail: tremper@teco.edu
 
 [//]: # (E-Mail: SAQN-web@teco.edu)
 
-  
-**Disclaimer - Rechtliche Hinweise**
+<br><br>
+
+### Disclaimer - Rechtliche Hinweise
 
 <p><strong>1. Haftungsbeschränkung</strong></p>
 <p>Die Inhalte des Internetauftritts wurden mit größtmöglicher Sorgfalt und nach bestem Gewissen erstellt. Dennoch übernimmt der Anbieter dieser Webseite keine Gewähr für die Aktualität, Vollständigkeit und Richtigkeit der bereitgestellten Seiten und Inhalte.</p>

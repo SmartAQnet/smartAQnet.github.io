@@ -65,6 +65,7 @@ The data made available on this website was collected for research purposes as p
 
 In particular, we would like to expressly point out fundamental errors and inaccuracies in the data, since, for example, the sensors used were partly operated by laypersons, were deliberately subjected to outside specifications of the manufacturers or no calibration. Therefore, most of the contained data should not be regarded as "measurements" in the usual sense. Also when importing external measurements or metadata, we do not exclude errors and in case of doubt refer directly to the referenced source (which may be more suitable for further use). In particular, this data collection is not in itself suitable for monitoring or conclusively evaluating the quality of outdoor air at the sites mentioned.
 
+<br><br>
 
 ### Legal Notice
 
@@ -82,8 +83,9 @@ E-Mail: tremper@teco.edu
 
 [//]: # (E-Mail: SAQN-web@teco.edu)
 
+<br><br>
   
-**Disclaimer**
+### Disclaimer
 
 <p><strong>Limitation of liability for internal content</strong></p>
 <p>The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages.</p>
@@ -97,7 +99,7 @@ E-Mail: tremper@teco.edu
 <p>We would like to expressly point out that the transmission of data via the Internet (e.g., by e-mail) can offer security vulnerabilities. It is therefore impossible to safeguard the data completely against access by third parties. We cannot assume any liability for damages arising as a result of such security vulnerabilities.</p>
 <p>The use by third parties of all published contact details for the purpose of advertising is expressly excluded. We reserve the right to take legal steps in the case of the unsolicited sending of advertising information; e.g., by means of spam mail.</p>
 
-<p>Source: <a href="http://www.mustervorlage.net/disclaimer-muster#Englisch">Disclaimer on Mustervorlage.net</a></p>
+<strong>Source:</strong> <a href="http://www.mustervorlage.net/disclaimer-muster#Englisch">Disclaimer on Mustervorlage.net</a>
 
 
 <style>
