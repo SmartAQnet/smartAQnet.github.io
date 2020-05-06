@@ -11,7 +11,7 @@ entries:
         month: "06"
         year: "2020"
   - name: "Konferenz zu Smart Air Quality in Thessaloniki"
-    content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a>' und <a href="https://airquality2020.meng.auth.gr/" target="_blank">Air Quality 2020</a>' 
+    content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a> und <a href="https://airquality2020.meng.auth.gr/" target="_blank">Air Quality 2020</a>' 
     start:
         day: "18"
         month: "05"
