@@ -11,14 +11,14 @@ entries:
         month: "06"
         year: "2020"
   - name: "Konferenz zu Smart Air Quality in Thessaloniki"
-    content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a>'
+    content: 'mehr auf der <a href="http://www.airqualityconference.org/" target="_blank">Konferenzwebseite</a>' und <a href="https://airquality2020.meng.auth.gr/" target="_blank">Air Quality 2020</a>' 
     start:
-        day: "09"
-        month: "03"
+        day: "18"
+        month: "05"
         year: "2020"
     end:
-        day: "13"
-        month: "03"
+        day: "26"
+        month: "05"
         year: "2020"
   - name: "Clean Air Experts Day"
     content: 'Lösungsansätze <a href="https://www.clean-air-experts.de/" target="_blank">für saubere Luft in Augsburg</a>'

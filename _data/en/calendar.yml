@@ -11,20 +11,26 @@ entries:
         month: "06"
         year: "2020"
   - name: "Conference on Smart Air Quality in Thessaloniki"
-    content: 'you can find more information on the <a href="http://www.airqualityconference.org/" target="_blank">conference website</a>'
+    content: 'you can find more information on the <a href="http://www.airqualityconference.org/" target="_blank">conference website</a> and <a href="https://airquality2020.meng.auth.gr/" target="_blank">Air Quality 2020</a>'
     start:
-        day: "09"
-        month: "03"
+        day: "18"
+        month: "05"
         year: "2020"
     end:
-        day: "13"
-        month: "03"
+        day: "26"
+        month: "05"
         year: "2020"
   - name: "Clean Air Experts Day"
     content: 'Solutions for <a href="https://www.clean-air-experts.de/" target="_blank">clean air in Augsburg</a>'
     start:
         day: "29"
         month: "10"
+        year: "2019"
+  - name: "Open-door day at Umweltamt Augsburg"
+    content: '<a href="https://www.augsburg.de/umwelt-soziales/umwelt/tag-der-offenen-tuer-im-umweltamt/" target="_blank">Welcome</a>'
+    start:
+        day: "20"
+        month: "09"
         year: "2019"
   - name: "KIT AUTH Summer School: Clean Energy and Sustainability in Possidi"
     content: 'more information about <a href="http://www.kathes-research.eu/21.php/" target="_blank">Summer School</a>'
