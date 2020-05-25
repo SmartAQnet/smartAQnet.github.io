@@ -125,4 +125,4 @@ und Anwendungsdemonstrationen" statt. 
 Zeitplan
 ========
 
-Das vom BMVI geförderte smartAQnet-Projekt läuft von 01.04.2017 bis 31.03.2020.
+Das vom BMVI geförderte smartAQnet-Projekt läuft von 01.04.2017 bis 31.09.2020.

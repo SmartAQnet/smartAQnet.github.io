@@ -118,4 +118,4 @@ with Measurement and Application Demonstrations".
 Project Duration
 ================
 
-The [BMVI-funded](/FUNDING-INSTITUTION-AND-IMPRINT/) project SmartAQnet runs from 01.04.2017 to 31.03.2020.
+The [BMVI-funded](/FUNDING-INSTITUTION-AND-IMPRINT/) project SmartAQnet runs from 01.04.2017 to 31.09.2020.
