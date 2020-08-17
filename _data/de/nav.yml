@@ -37,6 +37,9 @@ top:
     - name: Live Daten
       link: /en/dashboard
 
+    - name: Abschlussveranstaltung
+      link: /de/abschlussveranstaltung
+
   special_page:
     - name: Suche
       icon: "search"

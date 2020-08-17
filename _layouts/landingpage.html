@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<div {% if page.feature-img %}class="feature-image"{% endif %}>
+  <header id="main" class='{% if page.center-feature-img %} center-feature-img {% endif %}'>
+    <div id="feature-img-blur" style="background-image: url('{{ page.feature-img | relative_url }}'); background-position-y: {{ page.background-position-y }};"></div>
+    <div id="feature-img" style="background-image: url('{{ page.feature-img | relative_url }}'); background-position-y: {{ page.background-position-y }};"></div>
+    <h1 id="{{ page.title | default: "" | cgi_escape }}" class="title">
+        {{ page.title }}
+    </h1>
+    
+    {% if page.subtitle %}
+    <h2 class="subtitle">{{ page.subtitle }}</h2>
+    {% endif %}
+      
+  </header>
+  <section class="post-content">
+  {% if page.bootstrap or layout.bootstrap %}
+  <div class="bootstrap-iso">
+  {% endif %}
+	{{ content }}
+  {% if page.bootstrap or layout.bootstrap %}
+  </div>
+  {% endif %}
+  </section>
+    
+    
+  <!-- Tag list for portfolio -->
+  {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
+  {% include tags_list.html tags=tag_list %}
+    
+</div>
