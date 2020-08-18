@@ -5,6 +5,7 @@ title: Abschlussveranstaltungen von SmartAQnet im Juni 2020
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------
+
 Abschlussveranstaltungen des BMVI-Projektes "Smart Air Quality Network" (SAQN), 
 gefördert vom Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) unter der Nummer 19F2003B (http://www.smartaq.net/):
 **23. - 24. September 2020**, alle Veranstaltungen sind online zugänglich
