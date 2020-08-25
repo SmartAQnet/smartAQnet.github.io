@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Concluding events of SmartAQnet in June 2020
+title: Program of the SmartAQnet concluding events in September 2020
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------
