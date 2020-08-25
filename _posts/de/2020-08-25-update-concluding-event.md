@@ -159,23 +159,3 @@ Alle Vorträge können ab Anfang September auf einem zentralen PC abgelegt werde
 **Virtuelles Anwenderbeirat-Treffen**
 
 * 16:00 – 17:00 Virtuelles Treffen des Anwenderbeirates mit allen SAQN-Teilnehmern
-
-
-
-Prof. Dr. Klaus Schäfer
-
-Atmospheric Physics Consultant
-
-Aerosol Akademie e.V.
-
-Dorfstraße 9
-
-83404 Ainring
-
-Phone +49 175 6296313 (Germany)
-
-E-Mail schaefer@atmosphericphysics.de
-
-<http://www.aerosol-akademie.de>
-
-<https://www.smartaq.net>

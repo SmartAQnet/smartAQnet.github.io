@@ -144,23 +144,3 @@ All talks can be collected at a central PC since beginning of September. The tal
 **Virtual advisory board meeting**
 
 * 16:00 – 17:00 Virtual meeting of the advisory board with all participants from SAQN
-
-
-
-Prof. Dr. Klaus Schäfer
-
-Atmospheric Physics Consultant
-
-Aerosol Akademie e.V.
-
-Dorfstraße 9
-
-83404 Ainring
-
-Phone +49 175 6296313 (Germany)
-
-E-Mail schaefer@atmosphericphysics.de
-
-<http://www.aerosol-akademie.de>
-
-<https://www.smartaq.net>
