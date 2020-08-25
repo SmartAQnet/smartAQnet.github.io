@@ -1,7 +1,7 @@
 ---
 layout: post
 author: SmartAQnet
-title: Abschlussveranstaltungen von SmartAQnet im Juni 2020
+title: Programm der SmartAQnet Abschlussveranstaltungen im September 2020
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------
