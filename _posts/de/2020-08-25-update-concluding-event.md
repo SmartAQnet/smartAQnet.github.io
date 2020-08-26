@@ -159,3 +159,7 @@ Alle Vorträge können ab Anfang September auf einem zentralen PC abgelegt werde
 **Virtuelles Anwenderbeirat-Treffen**
 
 * 16:00 – 17:00 Virtuelles Treffen des Anwenderbeirates mit allen SAQN-Teilnehmern
+
+Kontakt: 
+Projekt SmartAQnet Koordinationsteam
+smartaqnet@teco.edu

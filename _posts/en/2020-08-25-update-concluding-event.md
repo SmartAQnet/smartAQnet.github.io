@@ -144,3 +144,7 @@ All talks can be collected at a central PC since beginning of September. The tal
 **Virtual advisory board meeting**
 
 * 16:00 – 17:00 Virtual meeting of the advisory board with all participants from SAQN
+
+Contact: 
+Project SmartAQnet Coordination Team
+smartaqnet@teco.edu
