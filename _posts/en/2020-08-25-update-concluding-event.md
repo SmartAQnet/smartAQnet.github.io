@@ -5,17 +5,16 @@ title: Program of the SmartAQnet concluding events in September 2020
 tags: [Feinstaub, Augsburg]
 ---
 -----------------------------------------------------------------------------
-Concluding events of the project „Smart Air Quality Network” (SAQN), 
-funded by the German Federal Ministry of Transport and Digital Infrastructure - Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) under grant no. 19F2003B <https://www.smartaq.net>
+Concluding events of the project „Smart Air Quality Network” (SAQN), funded by the German Federal Ministry of Transport and Digital Infrastructure - Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) under grant no. 19F2003B
 
 **23 - 24 September 2020**
 
-**Technical basics:** Participation in the workshop, symposium and meeting of the Advisory Board will be organised via MS-Teams and also in the UA in the rooms 203 (laptop), 202 (PC) and foyer (laptop). The number of guests in these rooms is depending from the regulations of the UA. Demonstrations of measurements and applications in front of the UA at the LÜB station Königsplatz are organised for citizen and recorded by a team of the company Grandel Event & Medientechnik (camera, video, sound). A record of all events will be produced and uploaded to the internet page of the concluding events, which will be provided at the home page of the Augsburg administration.
+**Technical basics:** Participation in the workshop, symposium and meeting of the Advisory Board will be organised via MS-Teams and also in the Umweltamt Augsburg in the rooms 203 (laptop), 202 (PC) and foyer (laptop). The number of guests in these rooms is depending on the regulations of the Umweltamt. Demonstrations of measurements and applications in front of the Umweltamt at the LÜB station Königsplatz are organised for citizen and recorded by a team of the company Grandel Event & Medientechnik (camera, video, sound). A record of all events will be produced and uploaded to the internet page of the concluding events, which will be provided at the homepage of the Umweltamt Augsburg administration.
 
-# 1. Day User-relevant final SAQN project event (in German)
+# Day 1: User-relevant final SAQN project event (in German)
 
-*Talks as well as demonstrations of measurements and applications for the citizen of Augsburg, local policymakers, environmental departments of German cities
-Objectives:* Citizen Science - Education – Face to face encounter – Orientation
+*Talks and demonstrations of measurements and applications for the citizen of Augsburg, local policymakers, environmental departments of German cities*
+Objectives: Citizen Science - Education – Face to face encounter – Orientation
 Continuation of the internal SAQN workshop on 07 May 2018
 
 * 09:00 – 13:00 Moderation Thomas Gratza, UA
