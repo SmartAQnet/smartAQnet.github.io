@@ -36,14 +36,9 @@ top:
 
     - name: Live Daten
       link: /en/dashboard
-
-<<<<<<< HEAD
-    # - name: Abschlussveranstaltung
-    #   link: /de/abschlussveranstaltung
-=======
+      
     - name: Abschlussveranstaltung
       link: /de/concluding_event
->>>>>>> development
 
   special_page:
     - name: Suche
