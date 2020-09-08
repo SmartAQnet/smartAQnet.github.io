@@ -38,7 +38,7 @@ top:
       link: /en/dashboard
 
     - name: Abschlussveranstaltung
-      link: /de/abschlussveranstaltung
+      link: /de/concluding_event
 
   special_page:
     - name: Suche
