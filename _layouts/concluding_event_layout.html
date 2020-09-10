@@ -18,17 +18,8 @@
 
     {{ content }}
 
-    <script type="text/javascript">
-      var container = document.getElementById('container');
-      container.style.backgroundSize = window.innerWidth*1.2 + "px " +  window.innerHeight*1.2 + "px"
 
+    <script src="{{ '/assets/static/js/parallax.js' | relative_url }}" type="text/javascript"></script>
 
-      window.onmousemove = function(e){
-          var x = - e.clientX/25,
-              y = - e.clientY/25;
-          container.style.backgroundPositionX = x + 'px';
-          container.style.backgroundPositionY = y + 'px';
-      }
-    </script>
   </body>
 </html>
