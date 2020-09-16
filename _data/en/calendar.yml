@@ -1,6 +1,6 @@
 headline: Events and dates
 entries:
-  - name: '<a href="/en/concluding-event" target="_blank">SmartAQnet Concluding Event</a>'
+  - name: '<a href="/en/concluding_event" target="_blank">SmartAQnet Concluding Event</a>'
     content: 'at the Umweltamt, Augsburg, Germany</a>'
     start:
         day: "23"
