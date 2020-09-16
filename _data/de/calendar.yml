@@ -1,6 +1,6 @@
 headline: Veranstaltungen und Termine
 entries:
-  - name: '<a href="/de/update-concluding-event" target="_blank">SmartAQnet-Abschlussveranstaltung</a>'
+  - name: '<a href="/de/concluding-event" target="_blank">SmartAQnet-Abschlussveranstaltung</a>'
     content: 'im Umweltamt, Augsburg, Deutschland</a>'
     start:
         day: "23"

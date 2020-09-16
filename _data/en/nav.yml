@@ -37,8 +37,8 @@ top:
     - name: Live Data
       link: /en/dashboard
 
-    # - name: Concluding Event
-    #   link: /en/concluding-event
+    - name: Concluding Event
+      link: /en/concluding_event
 
   special_page:
     - name: Search
