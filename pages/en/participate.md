@@ -51,7 +51,8 @@ The links are examples, all components are also available from dealers in German
 <li> Windows 7 &nbsp; | <a href="https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v4.0/NodeMCU-PyFlasher-4.0-x86.exe">NodeMCU-PyFlasher-32bit</a> </li>
 <br />
 <h6>Download firmware: </h6>
-<li> <a href="http://www.teco.edu/wp-content/uploads/2019/08/crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher.zip">crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher</a></li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2020/09/crowdsensor_v1.0_heltec_wifi_kit_32_OTA.zip">crowdsensor_v1.0_heltec_wifi_kit_32_OTA</a> (newest Version)</li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2019/08/crowdsensor_v0.8.5_heltec_wifi_kit_32_OTA.zip">crowdsensor_v0.8.5_heltec_wifi_kit_32_OTA</a> (old Version)</li>
 
 <i>(extract after download)</i>
 </div>
@@ -74,6 +75,7 @@ The links are examples, all components are also available from dealers in German
 <h4> Download manual</h4>
 </div>
 <div class="card-body">
+<li> <a href="https://www.teco.edu/wp-content/grand-media/application/Anleitung_Crowdsensor_V1.0.pdf">Assembly and installation manual of the SmartAQnet Crowdsensing Node v1.0</a> </li>
 <li> <a href="https://www.teco.edu/wp-content/grand-media/application/Anleitung_Crowdsensor_V085b.pdf">Assembly and installation manual of the SmartAQnet Crowdsensing Node v0.8.5</a> </li>
 </div>
 </div>
