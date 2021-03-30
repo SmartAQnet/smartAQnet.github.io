@@ -50,7 +50,8 @@ Die Links sind Beispiele, alle Komponenten sind auch von Händlern aus Deutschla
 <li> Windows 7 &nbsp; | <a href="https://github.com/marcelstoer/nodemcu-pyflasher/releases/download/v4.0/NodeMCU-PyFlasher-4.0-x86.exe">NodeMCU-PyFlasher-32bit</a> </li>
 <br />
 <h6>Download der Firmware: </h6>
-<li> <a href="http://www.teco.edu/wp-content/uploads/2019/08/crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher.zip">crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher</a></li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2021/03/crowdsensor_v1.1_heltec_wifi_kit_32_pyflasher.bin_.zip">crowdsensor_v1.1_heltec_wifi_kit_32_pyflasher</a> (aktuellste Version)</li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2019/08/crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher.zip">crowdsensor_v0.8.5_heltec_wifi_kit_32_pyflasher</a>  (alte Version)</li>
 
 <i>(nach dem Download entpacken)</i>
 </div>
@@ -62,7 +63,8 @@ Die Links sind Beispiele, alle Komponenten sind auch von Händlern aus Deutschla
 </div>
 <div class="card-body">
 <h6>Download der Firmware: </h6>
-<li> <a href="http://www.teco.edu/wp-content/uploads/2020/09/crowdsensor_v1.0_heltec_wifi_kit_32_OTA.zip">crowdsensor_v1.0_heltec_wifi_kit_32_OTA</a> (aktuellste Version)</li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2021/03/crowdsensor_v1.1_heltec_wifi_kit_32_OTA.bin_.zip">crowdsensor_v1.1_heltec_wifi_kit_32_OTA</a> (aktuellste Version)</li>
+<li> <a href="http://www.teco.edu/wp-content/uploads/2020/09/crowdsensor_v1.0_heltec_wifi_kit_32_OTA.zip">crowdsensor_v1.0_heltec_wifi_kit_32_OTA</a> (alte Version)</li>
 <li> <a href="http://www.teco.edu/wp-content/uploads/2019/08/crowdsensor_v0.8.5_heltec_wifi_kit_32_OTA.zip">crowdsensor_v0.8.5_heltec_wifi_kit_32_OTA</a> (alte Version)</li>
 
 <i>(nach dem Download entpacken)</i>
@@ -74,6 +76,7 @@ Die Links sind Beispiele, alle Komponenten sind auch von Händlern aus Deutschla
 <h4> Download der Anleitung</h4>
 </div>
 <div class="card-body">
+<li> <a href="https://www.teco.edu/wp-content/grand-media/application/Anleitung_Crowdsensor_V1.1.pdf">Aufbauanleitung SmartAQnet Crowdsensing Node v1.1</a> </li>
 <li> <a href="https://www.teco.edu/wp-content/grand-media/application/Anleitung_Crowdsensor_V1.0.pdf">Aufbauanleitung SmartAQnet Crowdsensing Node v1.0</a> </li>
 <li> <a href="https://www.teco.edu/wp-content/grand-media/application/Anleitung_Crowdsensor_V085b.pdf">Aufbauanleitung SmartAQnet Crowdsensing Node v0.8.5</a> </li>
 </div>
