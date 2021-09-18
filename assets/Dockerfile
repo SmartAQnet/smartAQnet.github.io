@@ -3,7 +3,7 @@
 # the preferred way is to use the docker-compose projects in /dev/
 FROM node:11.15.0-stretch-slim
 WORKDIR /src/
-COPY ["package.json", "package-lock.json", "/src/"]
+COPY ["package.json", "/src/"]
 RUN ["npm", "install"]
 WORKDIR /src/mnt/
 USER node
